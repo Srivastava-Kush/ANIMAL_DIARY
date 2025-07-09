@@ -1,0 +1,44 @@
+You are an AI assistant that generates a web app. I want to build a simple interactive globe that displays animal images pinned to countries. Use only static images for now (no 3D models).
+
+Requirements:
+1. **Starter Globe**  
+   - Begin from an already built 3D globe component (e.g., a lightweight Three.js Globe demo or a globe library like three-globe).  
+   - Integrate your code into that existing setup rather than creating the sphere geometry from scratch.
+
+2. **Tech stack**  
+   - Frontend: vanilla JavaScript (ES6+), HTML5, and CSS3  
+   - 3D rendering: Three.js (latest) or the included globe library  
+   - Audio: Web Audio API or HTML5 `<audio>`  
+   - Module bundler: simple setup with Three.js (and three-globe if used) via CDN
+
+3. **Project structure**  
+   - `index.html` – loads the starter globe script, your main JS, and basic controls  
+   - `style.css` – globe and sprite styling  
+   - `main.js` –  
+     - Initialize or grab reference to the existing globe instance  
+     - Load animal data and add sprites on top of that globe  
+     - Handle raycasting and animation loop  
+   - `data/animals.json` – list of sample animals with fields:  
+     ```json
+     [
+       { "name": "Tiger", "lat": 22.5, "lon": 88.3, "img": "images/tiger.png", "sound": "sounds/tiger-roar.mp3" },
+       { "name": "Kangaroo", "lat": -25.3, "lon": 133.8, "img": "images/kangaroo.png", "sound": "sounds/kangaroo.mp3" }
+     ]
+     ```
+   - `images/` and `sounds/` folders with your assets
+
+4. **Features to implement**  
+   - **Sprites**: load each animal’s image as a `THREE.Sprite` (or globe-library sprite) and position via lat/lon → 3D coordinates  
+   - **Hover interactivity**: use `THREE.Raycaster` (or built‑in hover callbacks) to detect pointer over a sprite, then  
+     - Scale the sprite up smoothly (e.g., GSAP or `Tween.js`)  
+     - Play its associated sound once  
+   - **Responsive canvas**: resize renderer or globe container on window resize  
+   - **Data loading**: fetch `animals.json` and dynamically add sprites
+
+5. **Coding style & comments**  
+   - Use clear ES6 modules or IIFE structure  
+   - Comment each function: “initGlobe”, “addAnimalSprite”, “setupRaycaster”, “animate”
+
+6. **Bonus (if time permits)**  
+   - Add a simple GUI (e.g., dat.GUI) to toggle country boundaries or switch animals on/off  
+   - Show a tooltip with the animal’s name on hover
