@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "Tiger",
+    "lat": 22.5,
+    "lon": 88.3,
+    "country": "India",
+    "img": "images/tiger.png",
+    "sound": "sounds/tiger-roar.mp3"
+  },
+  {
+    "name": "Kangaroo",
+    "lat": -25.3,
+    "lon": 133.8,
+    "country": "Australia", 
+    "img": "images/kangaroo.png",
+    "sound": "sounds/kangaroo.mp3"
+  },
+  {
+    "name": "Panda",
+    "lat": 35.0,
+    "lon": 104.0,
+    "country": "China",
+    "img": "images/panda.png",
+    "sound": "sounds/panda.mp3"
+  },
+  {
+    "name": "Lion",
+    "lat": -1.3,
+    "lon": 36.8,
+    "country": "Kenya",
+    "img": "images/lion.png", 
+    "sound": "sounds/lion-roar.mp3"
+  },
+  {
+    "name": "Polar Bear",
+    "lat": 71.0,
+    "lon": -8.0,
+    "country": "Greenland",
+    "img": "images/polar-bear.png",
+    "sound": "sounds/polar-bear.mp3"
+  },
+  {
+    "name": "Penguin",
+    "lat": -77.8,
+    "lon": 166.7,
+    "country": "Antarctica",
+    "img": "images/penguin.png",
+    "sound": "sounds/penguin.mp3"
+  },
+  {
+    "name": "Jaguar",
+    "lat": -14.2,
+    "lon": -51.9,
+    "country": "Brazil",
+    "img": "images/jaguar.png",
+    "sound": "sounds/jaguar.mp3"
+  },
+  {
+    "name": "Bald Eagle",
+    "lat": 39.8,
+    "lon": -98.6,
+    "country": "USA",
+    "img": "images/eagle.png",
+    "sound": "sounds/eagle.mp3"
+  }
+]

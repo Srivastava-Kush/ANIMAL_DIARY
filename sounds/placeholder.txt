@@ -1,0 +1,12 @@
+
+Place your animal sound files here:
+- tiger-roar.mp3
+- kangaroo.mp3
+- panda.mp3
+- lion-roar.mp3
+- polar-bear.mp3
+- penguin.mp3
+- jaguar.mp3
+- eagle.mp3
+
+Sounds will only play if the files are available.

@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Three.js + GeoJSON</title>
-    <style>
-      body {
-        margin: 0;
-      }
-    </style>
+    <title>Interactive Animal Globe</title>
+    <link rel="stylesheet" href="style.css">
      <script type="importmap">
       {
 				"imports": {
@@ -19,6 +15,17 @@
     </script>
   </head>
   <body>
+    <div class="controls-panel">
+      <h3>🌍 Animal Globe</h3>
+      <p>🖱️ Hover over animals to learn more</p>
+      <p>🔄 Drag to rotate the globe</p>
+      <p>🔍 Scroll to zoom in/out</p>
+    </div>
+    
+    <div class="animal-counter" id="animalCounter">
+      Animals loaded: 0
+    </div>
+    
     <script type="module" src="index.js"></script>
   </body>
 </html>
