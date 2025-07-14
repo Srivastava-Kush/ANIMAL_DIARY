@@ -66,7 +66,7 @@ function initGlobe() {
  * Load animal data and create sprites for each animal
  */
 function loadAnimals() {
-  fetch('https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/animals.json')
+  fetch('./data/animals.json')
     .then(response => response.json())
     .then(animals => {
       // Filter out animals without valid coordinates
