@@ -1,4 +1,3 @@
-
 import * as THREE from "three";
 import { OrbitControls } from 'jsm/controls/OrbitControls.js';
 import getStarfield from "./src/getStarfield.js";
@@ -73,17 +72,17 @@ function loadAnimals() {
       const validAnimals = animals.filter(animal => 
         animal.lat !== 0 || animal.lon !== 0
       );
-      
+
       validAnimals.forEach(animal => {
         addAnimalSprite(animal);
       });
-      
+
       // Update counter
       const counter = document.getElementById('animalCounter');
       if (counter) {
         counter.textContent = `Animals loaded: ${validAnimals.length}`;
       }
-      
+
       console.log(`✓ Loaded ${validAnimals.length} animals onto the globe`);
     })
     .catch(error => {
@@ -103,7 +102,7 @@ function addDefaultAnimals() {
     { name: "Panda", lat: 35.0, lon: 104.0, country: "China" },
     { name: "Lion", lat: -1.3, lon: 36.8, country: "Kenya" }
   ];
-  
+
   defaultAnimals.forEach(animal => {
     addAnimalSprite(animal);
   });
@@ -117,33 +116,33 @@ function addAnimalSprite(animal) {
   if (!animal.lat && !animal.lon) {
     return;
   }
-  
+
   // Create a loading texture first
   const canvas = document.createElement('canvas');
   const context = canvas.getContext('2d');
   canvas.width = 128;
   canvas.height = 128;
-  
+
   // Draw a colored circle with animal initial as fallback
   const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#feca57', '#ff9ff3', '#54a0ff'];
   const color = colors[Math.floor(Math.random() * colors.length)];
-  
+
   context.fillStyle = color;
   context.beginPath();
   context.arc(64, 64, 60, 0, Math.PI * 2);
   context.fill();
-  
+
   context.fillStyle = 'white';
   context.font = 'bold 32px Arial';
   context.textAlign = 'center';
   context.textBaseline = 'middle';
   context.fillText(animal.name[0], 64, 64);
-  
+
   // Add a subtle border
   context.strokeStyle = 'rgba(255, 255, 255, 0.3)';
   context.lineWidth = 4;
   context.stroke();
-  
+
   // Create texture and sprite
   const texture = new THREE.CanvasTexture(canvas);
   const spriteMaterial = new THREE.SpriteMaterial({ 
@@ -152,19 +151,19 @@ function addAnimalSprite(animal) {
     alphaTest: 0.1
   });
   const sprite = new THREE.Sprite(spriteMaterial);
-  
+
   // Convert lat/lon to 3D coordinates on sphere
   const position = latLonToVector3(animal.lat, animal.lon, 2.1);
   sprite.position.copy(position);
   sprite.scale.set(0.4, 0.4, 0.4);
-  
+
   // Store animal data in sprite userData
   sprite.userData = {
     animal: animal,
     originalScale: 0.4,
     isHovered: false
   };
-  
+
   // Load actual animal image if available
   if (animal.img) {
     const textureLoader = new THREE.TextureLoader();
@@ -177,24 +176,24 @@ function addAnimalSprite(animal) {
         const maskCtx = maskCanvas.getContext('2d');
         maskCanvas.width = 128;
         maskCanvas.height = 128;
-        
+
         // Create circular clipping path
         maskCtx.beginPath();
         maskCtx.arc(64, 64, 60, 0, Math.PI * 2);
         maskCtx.clip();
-        
+
         // Create temporary image element
         const img = new Image();
         img.crossOrigin = 'anonymous';
         img.onload = () => {
           // Draw the image within the circular mask
           maskCtx.drawImage(img, 0, 0, 128, 128);
-          
+
           // Add border
           maskCtx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
           maskCtx.lineWidth = 4;
           maskCtx.stroke();
-          
+
           // Update sprite texture
           const maskedTexture = new THREE.CanvasTexture(maskCanvas);
           sprite.material.map = maskedTexture;
@@ -208,7 +207,7 @@ function addAnimalSprite(animal) {
       }
     );
   }
-  
+
   animalSprites.push(sprite);
   scene.add(sprite);
 }
@@ -219,11 +218,11 @@ function addAnimalSprite(animal) {
 function latLonToVector3(lat, lon, radius) {
   const phi = (90 - lat) * (Math.PI / 180);
   const theta = (lon + 180) * (Math.PI / 180);
-  
+
   const x = -(radius * Math.sin(phi) * Math.cos(theta));
   const z = (radius * Math.sin(phi) * Math.sin(theta));
   const y = (radius * Math.cos(phi));
-  
+
   return new THREE.Vector3(x, y, z);
 }
 
@@ -241,10 +240,10 @@ function setupRaycaster() {
 function onMouseMove(event) {
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-  
+
   raycaster.setFromCamera(mouse, camera);
   const intersects = raycaster.intersectObjects(animalSprites);
-  
+
   // Reset previously hovered sprite
   if (hoveredSprite && !intersects.find(i => i.object === hoveredSprite)) {
     animateSprite(hoveredSprite, hoveredSprite.userData.originalScale);
@@ -252,7 +251,7 @@ function onMouseMove(event) {
     hideTooltip();
     hoveredSprite = null;
   }
-  
+
   // Handle new hover
   if (intersects.length > 0) {
     const sprite = intersects[0].object;
@@ -261,12 +260,12 @@ function onMouseMove(event) {
       sprite.userData.isHovered = true;
       animateSprite(sprite, sprite.userData.originalScale * 1.5);
       showTooltip(sprite.userData.animal, event.clientX, event.clientY);
-      
+
       // Play sound if available
       playAnimalSound(sprite.userData.animal);
     }
   }
-  
+
   // Update cursor style
   renderer.domElement.style.cursor = intersects.length > 0 ? 'pointer' : 'default';
 }
@@ -277,14 +276,14 @@ function onMouseMove(event) {
 function onMouseClick(event) {
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-  
+
   raycaster.setFromCamera(mouse, camera);
   const intersects = raycaster.intersectObjects(animalSprites);
-  
+
   if (intersects.length > 0) {
     const animal = intersects[0].object.userData.animal;
     console.log(`Clicked on ${animal.name} from ${animal.country}`);
-    
+
     // Additional click effects could go here
     playAnimalSound(animal);
   }
@@ -297,20 +296,20 @@ function animateSprite(sprite, targetScale) {
   const startScale = sprite.scale.x;
   const duration = 200; // milliseconds
   const startTime = Date.now();
-  
+
   function animate() {
     const elapsed = Date.now() - startTime;
     const progress = Math.min(elapsed / duration, 1);
     const easeProgress = 1 - Math.pow(1 - progress, 3); // ease-out cubic
-    
+
     const currentScale = startScale + (targetScale - startScale) * easeProgress;
     sprite.scale.set(currentScale, currentScale, currentScale);
-    
+
     if (progress < 1) {
       requestAnimationFrame(animate);
     }
   }
-  
+
   animate();
 }
 
@@ -356,7 +355,7 @@ function showTooltip(animal, x, y) {
   const location = animal.country && animal.country.trim() !== '' 
     ? animal.country 
     : `${animal.lat.toFixed(1)}°, ${animal.lon.toFixed(1)}°`;
-    
+
   tooltip.innerHTML = `
     <div style="display: flex; align-items: center; gap: 8px;">
       <div>
@@ -384,7 +383,7 @@ function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
   controls.update();
-  
+
   // Update any animated sprites
   animalSprites.forEach(sprite => {
     if (sprite.userData.isHovered) {
