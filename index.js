@@ -72,6 +72,14 @@ function loadAnimals() {
       animals.forEach(animal => {
         addAnimalSprite(animal);
       });
+      
+      // Update counter
+      const counter = document.getElementById('animalCounter');
+      if (counter) {
+        counter.textContent = `Animals loaded: ${animals.length}`;
+      }
+      
+      console.log(`✓ Loaded ${animals.length} animals onto the globe`);
     })
     .catch(error => {
       console.warn('Could not load animals.json:', error);
