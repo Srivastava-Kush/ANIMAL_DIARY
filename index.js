@@ -66,24 +66,29 @@ function initGlobe() {
  * Load animal data and create sprites for each animal
  */
 function loadAnimals() {
-  fetch('./data/animals.json')
+  fetch('https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/animals.json')
     .then(response => response.json())
     .then(animals => {
-      animals.forEach(animal => {
+      // Filter out animals without valid coordinates
+      const validAnimals = animals.filter(animal => 
+        animal.lat !== 0 || animal.lon !== 0
+      );
+      
+      validAnimals.forEach(animal => {
         addAnimalSprite(animal);
       });
       
       // Update counter
       const counter = document.getElementById('animalCounter');
       if (counter) {
-        counter.textContent = `Animals loaded: ${animals.length}`;
+        counter.textContent = `Animals loaded: ${validAnimals.length}`;
       }
       
-      console.log(`✓ Loaded ${animals.length} animals onto the globe`);
+      console.log(`✓ Loaded ${validAnimals.length} animals onto the globe`);
     })
     .catch(error => {
-      console.warn('Could not load animals.json:', error);
-      // Add some default animals if file doesn't exist
+      console.warn('Could not load animals.json from GitHub:', error);
+      // Add some default animals if fetch fails
       addDefaultAnimals();
     });
 }
@@ -108,52 +113,94 @@ function addDefaultAnimals() {
  * Create a sprite for an animal at specified lat/lon coordinates
  */
 function addAnimalSprite(animal) {
-  // Create a canvas to draw the animal icon
+  // Skip animals without valid coordinates
+  if (!animal.lat && !animal.lon) {
+    return;
+  }
+  
+  // Create a loading texture first
   const canvas = document.createElement('canvas');
   const context = canvas.getContext('2d');
-  canvas.width = 64;
-  canvas.height = 64;
+  canvas.width = 128;
+  canvas.height = 128;
   
   // Draw a colored circle with animal initial as fallback
-  context.fillStyle = '#ff6b6b';
+  const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#feca57', '#ff9ff3', '#54a0ff'];
+  const color = colors[Math.floor(Math.random() * colors.length)];
+  
+  context.fillStyle = color;
   context.beginPath();
-  context.arc(32, 32, 30, 0, Math.PI * 2);
+  context.arc(64, 64, 60, 0, Math.PI * 2);
   context.fill();
   
   context.fillStyle = 'white';
-  context.font = '24px Arial';
+  context.font = 'bold 32px Arial';
   context.textAlign = 'center';
   context.textBaseline = 'middle';
-  context.fillText(animal.name[0], 32, 32);
+  context.fillText(animal.name[0], 64, 64);
+  
+  // Add a subtle border
+  context.strokeStyle = 'rgba(255, 255, 255, 0.3)';
+  context.lineWidth = 4;
+  context.stroke();
   
   // Create texture and sprite
   const texture = new THREE.CanvasTexture(canvas);
   const spriteMaterial = new THREE.SpriteMaterial({ 
     map: texture,
-    transparent: true
+    transparent: true,
+    alphaTest: 0.1
   });
   const sprite = new THREE.Sprite(spriteMaterial);
   
   // Convert lat/lon to 3D coordinates on sphere
   const position = latLonToVector3(animal.lat, animal.lon, 2.1);
   sprite.position.copy(position);
-  sprite.scale.set(0.3, 0.3, 0.3);
+  sprite.scale.set(0.4, 0.4, 0.4);
   
   // Store animal data in sprite userData
   sprite.userData = {
     animal: animal,
-    originalScale: 0.3,
+    originalScale: 0.4,
     isHovered: false
   };
   
-  // Try to load actual image if available
+  // Load actual animal image if available
   if (animal.img) {
     const textureLoader = new THREE.TextureLoader();
+    textureLoader.crossOrigin = 'anonymous';
     textureLoader.load(
       animal.img,
       (loadedTexture) => {
-        sprite.material.map = loadedTexture;
-        sprite.material.needsUpdate = true;
+        // Create a circular mask for the image
+        const maskCanvas = document.createElement('canvas');
+        const maskCtx = maskCanvas.getContext('2d');
+        maskCanvas.width = 128;
+        maskCanvas.height = 128;
+        
+        // Create circular clipping path
+        maskCtx.beginPath();
+        maskCtx.arc(64, 64, 60, 0, Math.PI * 2);
+        maskCtx.clip();
+        
+        // Create temporary image element
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => {
+          // Draw the image within the circular mask
+          maskCtx.drawImage(img, 0, 0, 128, 128);
+          
+          // Add border
+          maskCtx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
+          maskCtx.lineWidth = 4;
+          maskCtx.stroke();
+          
+          // Update sprite texture
+          const maskedTexture = new THREE.CanvasTexture(maskCanvas);
+          sprite.material.map = maskedTexture;
+          sprite.material.needsUpdate = true;
+        };
+        img.src = animal.img;
       },
       undefined,
       (error) => {
@@ -306,9 +353,17 @@ function createTooltip() {
  * Show tooltip with animal information
  */
 function showTooltip(animal, x, y) {
+  const location = animal.country && animal.country.trim() !== '' 
+    ? animal.country 
+    : `${animal.lat.toFixed(1)}°, ${animal.lon.toFixed(1)}°`;
+    
   tooltip.innerHTML = `
-    <strong>${animal.name}</strong><br>
-    ${animal.country || 'Unknown location'}
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <div>
+        <strong style="color: #80FF80; font-size: 16px;">${animal.name}</strong><br>
+        <span style="color: #ccc; font-size: 12px;">📍 ${location}</span>
+      </div>
+    </div>
   `;
   tooltip.style.display = 'block';
   tooltip.style.left = (x + 10) + 'px';
