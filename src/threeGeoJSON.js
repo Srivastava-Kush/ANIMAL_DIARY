@@ -1,8 +1,9 @@
 
-import * as THREE from "https://unpkg.com/three@0.158.0/build/three.module.js";
-import { LineMaterial } from "https://unpkg.com/three@0.158.0/examples/jsm/lines/LineMaterial.js";
-import { LineGeometry } from "https://unpkg.com/three@0.158.0/examples/jsm/lines/LineGeometry.js";
-import { Line2 } from "https://unpkg.com/three@0.158.0/examples/jsm/lines/Line2.js";
+
+import * as THREE from "three";
+import { LineMaterial } from "jsm/lines/LineMaterial.js";
+import { LineGeometry } from "jsm/lines/LineGeometry.js";
+import { Line2 } from "jsm/lines/Line2.js";
 
 /* Draw GeoJSON
 

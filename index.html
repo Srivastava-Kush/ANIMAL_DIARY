@@ -1,127 +1,191 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌍 Animal Globe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Landing Page -->
-    <div id="landingPage" class="landing-page">
-        <!-- Navigation Bar -->
-        <nav class="navbar">
-            <div class="nav-item" onclick="showSection('inspiration')">Inspiration</div>
-            <div class="nav-item" onclick="showSection('author')">Author</div>
-            <div class="nav-item" onclick="showSection('blogs')">Blogs</div>
-        </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🌍 Animal Globe</title>
+        <script type="importmap">
+      {
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.170/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.170/examples/jsm/"
+        }
+			}
+    </script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Landing Page -->
+        <div id="landingPage" class="landing-page">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <div class="nav-item" onclick="showSection('inspiration')">
+                    Inspiration
+                </div>
+                <div class="nav-item" onclick="showSection('author')">
+                    Author
+                </div>
+                <div class="nav-item" onclick="showSection('blogs')">Blogs</div>
+            </nav>
 
-        <!-- Main Title -->
-        <h1 class="main-title">🌍 Animal Globe</h1>
-        <p class="subtitle">Explore Wildlife Around the World</p>
+            <!-- Main Title -->
+            <h1 class="main-title">🌍 Animal Globe</h1>
+            <p class="subtitle">Explore Wildlife Around the World</p>
 
-        <!-- Background Animation -->
-        <div class="background-flowers">
-            <div class="flower" style="--delay: 0s; --x: 10%; --y: 20%;"></div>
-            <div class="flower" style="--delay: 1s; --x: 80%; --y: 30%;"></div>
-            <div class="flower" style="--delay: 2s; --x: 30%; --y: 70%;"></div>
-            <div class="flower" style="--delay: 3s; --x: 70%; --y: 80%;"></div>
-            <div class="flower" style="--delay: 4s; --x: 90%; --y: 50%;"></div>
-            <div class="flower" style="--delay: 5s; --x: 20%; --y: 90%;"></div>
-        </div>
+            <!-- Background Animation -->
+            <div class="background-flowers">
+                <div
+                    class="flower"
+                    style="--delay: 0s; --x: 10%; --y: 20%"
+                ></div>
+                <div
+                    class="flower"
+                    style="--delay: 1s; --x: 80%; --y: 30%"
+                ></div>
+                <div
+                    class="flower"
+                    style="--delay: 2s; --x: 30%; --y: 70%"
+                ></div>
+                <div
+                    class="flower"
+                    style="--delay: 3s; --x: 70%; --y: 80%"
+                ></div>
+                <div
+                    class="flower"
+                    style="--delay: 4s; --x: 90%; --y: 50%"
+                ></div>
+                <div
+                    class="flower"
+                    style="--delay: 5s; --x: 20%; --y: 90%"
+                ></div>
+            </div>
 
-        <!-- Flashcard Slideshow -->
-        <div class="flashcard-container" onclick="enterGlobe()">
-            <div class="flashcard-slideshow">
-                <div class="flashcard active">
-                    <img src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/tiger.jpg" alt="Tiger">
-                    <div class="card-info">
-                        <h3>Tiger</h3>
-                        <p>India</p>
+            <!-- Flashcard Slideshow -->
+            <div class="flashcard-container">
+                <div class="flashcard-slideshow">
+                    <div class="flashcard active">
+                        <img
+                            src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/tiger.jpg"
+                            alt="Tiger"
+                        />
+                        <div class="card-info">
+                            <h3>Tiger</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    <div class="flashcard">
+                        <img
+                            src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/panda.jpg"
+                            alt="Panda"
+                        />
+                        <div class="card-info">
+                            <h3>Giant Panda</h3>
+                            <p>China</p>
+                        </div>
+                    </div>
+                    <div class="flashcard">
+                        <img
+                            src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/kangaroo.jpg"
+                            alt="Kangaroo"
+                        />
+                        <div class="card-info">
+                            <h3>Kangaroo</h3>
+                            <p>Australia</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flashcard">
-                    <img src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/panda.jpg" alt="Panda">
-                    <div class="card-info">
-                        <h3>Giant Panda</h3>
-                        <p>China</p>
-                    </div>
+                <button class="enter-globe-btn" id="enterGlobeButton" >
+                    Enter Animal Globe →
+                </button>
+            </div>
+
+            <!-- Content Sections -->
+            <div id="inspiration" class="content-section">
+                <h2>Inspiration</h2>
+                <p>
+                    Our mission is to showcase the incredible diversity of
+                    wildlife around the world and raise awareness about
+                    conservation efforts. Every animal has a story, and every
+                    habitat matters.
+                </p>
+            </div>
+
+            <div id="author" class="content-section">
+                <h2>Author</h2>
+                <p>
+                    Created with passion for wildlife conservation and
+                    interactive education. This project aims to bring the
+                    natural world closer to people through technology.
+                </p>
+            </div>
+
+            <div id="blogs" class="content-section">
+                <h2>Blogs</h2>
+                <div class="blog-login">
+                    <input type="text" placeholder="Username" id="username" />
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        id="password"
+                    />
+                    <button onclick="login()">Login</button>
                 </div>
-                <div class="flashcard">
-                    <img src="https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/kangaroo.jpg" alt="Kangaroo">
-                    <div class="card-info">
-                        <h3>Kangaroo</h3>
-                        <p>Australia</p>
-                    </div>
+                <div id="blogContent" class="hidden">
+                    <button onclick="createPost()">Create New Post</button>
+                    <div id="blogPosts"></div>
                 </div>
             </div>
-            <button class="enter-globe-btn">Enter Animal Globe →</button>
         </div>
 
-        <!-- Content Sections -->
-        <div id="inspiration" class="content-section">
-            <h2>Inspiration</h2>
-            <p>Our mission is to showcase the incredible diversity of wildlife around the world and raise awareness about conservation efforts. Every animal has a story, and every habitat matters.</p>
-        </div>
+        <!-- 3D Globe Page -->
+        <div id="globePage" class="globe-page hidden">
+            <!-- Controls Panel -->
+            <div class="controls-panel">
+                <button class="back-btn" onclick="backToLanding()">
+                    ← Back to Landing
+                </button>
 
-        <div id="author" class="content-section">
-            <h2>Author</h2>
-            <p>Created with passion for wildlife conservation and interactive education. This project aims to bring the natural world closer to people through technology.</p>
-        </div>
-
-        <div id="blogs" class="content-section">
-            <h2>Blogs</h2>
-            <div class="blog-login">
-                <input type="text" placeholder="Username" id="username">
-                <input type="password" placeholder="Password" id="password">
-                <button onclick="login()">Login</button>
+                <!-- Search & Filter -->
+                <div class="search-filter">
+                    <input
+                        type="text"
+                        id="animalSearch"
+                        placeholder="Search animals..."
+                        onkeyup="filterAnimals()"
+                    />
+                    <select id="iucnFilter" onchange="filterAnimals()">
+                        <option value="">All IUCN Status</option>
+                        <option value="critically_endangered">
+                            Critically Endangered
+                        </option>
+                        <option value="endangered">Endangered</option>
+                        <option value="vulnerable">Vulnerable</option>
+                        <option value="near_threatened">Near Threatened</option>
+                        <option value="least_concern">Least Concern</option>
+                    </select>
+                </div>
             </div>
-            <div id="blogContent" class="hidden">
-                <button onclick="createPost()">Create New Post</button>
-                <div id="blogPosts"></div>
-            </div>
-        </div>
-    </div>
 
-    <!-- 3D Globe Page -->
-    <div id="globePage" class="globe-page hidden">
-        <!-- Controls Panel -->
-        <div class="controls-panel">
-            <button class="back-btn" onclick="backToLanding()">← Back to Landing</button>
-            
-            <!-- Search & Filter -->
-            <div class="search-filter">
-                <input type="text" id="animalSearch" placeholder="Search animals..." onkeyup="filterAnimals()">
-                <select id="iucnFilter" onchange="filterAnimals()">
-                    <option value="">All IUCN Status</option>
-                    <option value="critically_endangered">Critically Endangered</option>
-                    <option value="endangered">Endangered</option>
-                    <option value="vulnerable">Vulnerable</option>
-                    <option value="near_threatened">Near Threatened</option>
-                    <option value="least_concern">Least Concern</option>
-                </select>
+            <!-- Globe Container -->
+            <div id="globeContainer"></div>
+
+            <!-- Animal Details Modal -->
+            <div id="animalModal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div id="modalBody"></div>
+                </div>
             </div>
+
+            <!-- Footer -->
+            <footer class="globe-footer">
+                <p>Data sources: IUCN Red List 2025, GitHub Animal Assets</p>
+                <button onclick="reportDiscrepancy()">
+                    Report Discrepancy
+                </button>
+            </footer>
         </div>
 
-        <!-- Globe Container -->
-        <div id="globeContainer"></div>
-
-        <!-- Animal Details Modal -->
-        <div id="animalModal" class="modal hidden">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <div id="modalBody"></div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="globe-footer">
-            <p>Data sources: IUCN Red List 2025, GitHub Animal Assets</p>
-            <button onclick="reportDiscrepancy()">Report Discrepancy</button>
-        </footer>
-    </div>
-
-    <script type="module" src="index.js"></script>
-</body>
+        <script type="module" src="index.js"></script>
+    </body>
 </html>
