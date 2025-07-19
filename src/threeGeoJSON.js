@@ -30,12 +30,12 @@ export function drawThreeGeo({ json, radius, materalOptions }) {
   for (let geom_num = 0; geom_num < json_geom.length; geom_num++) {
     if (json_geom[geom_num].type == 'Point') {
       convertToSphereCoords(json_geom[geom_num].coordinates, radius);
-      drawParticle(x_values[0], y_values[0], z_values[0], materalOptions);
+      drawParticle(x_values[0], y_values[0], z_values[0], materialOptions);
 
     } else if (json_geom[geom_num].type == 'MultiPoint') {
       for (let point_num = 0; point_num < json_geom[geom_num].coordinates.length; point_num++) {
         convertToSphereCoords(json_geom[geom_num].coordinates[point_num], radius);
-        drawParticle(x_values[0], y_values[0], z_values[0], materalOptions);
+        drawParticle(x_values[0], y_values[0], z_values[0], materialOptions);
       }
 
     } else if (json_geom[geom_num].type == 'LineString') {
@@ -199,6 +199,7 @@ export function drawThreeGeo({ json, radius, materalOptions }) {
 
     const particle_material = new THREE.PointsMaterial(options);
 
+    const particle_geom = new THREE.SphereGeometry(0.1, 32, 32); // Define particle_geom
     const particle = new THREE.Points(particle_geom, particle_material);
     container.add(particle);
 
