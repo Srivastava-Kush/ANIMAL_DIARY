@@ -1,0 +1,93 @@
+Here’s the complete, consolidated feature list and roadmap for your Animal Globe project, excluding the image-classifier AI/ML piece but including all your requirements and the earlier suggestions:
+
+🏠 Landing Page
+Title
+– “🌍 Animal Globe” (or your chosen name) prominently at the top.
+
+Navigation Bar
+– Horizontal, three columns:
+• Inspiration
+• Author
+• Blogs
+
+Background Animation
+– Many stylized flowers continuously rotating behind the hero area.
+
+Flashcard Slideshow
+– A horizontally-scrolling carousel of animal flashcards.
+– Acts as a single “button”: clicking anywhere on it navigates to the 3D Globe page.
+
+🌐 3D Globe Website Core
+IUCN Red List Categorization
+– Ingest IUCN status via their API (or cached JSON)
+– Draw a glowing ring around each animal’s marker:
+• Critically Endangered → red pulse
+• Endangered → orange glow
+• Vulnerable → yellow glow
+• etc.
+– Include proper citation (“IUCN 2025…”) in footer.
+
+Search & Filter Panel
+– Search box: filter by animal name (partial match).
+– Filter controls:
+• IUCN category (dropdown or checkboxes)
+• Biological trait (e.g., “egg-laying” vs. “live-birth”)
+
+Double-Click Details Modal
+– On double-clicking any globe marker, open a flashcard-style overlay with:
+• Animal image & name
+• Country/region info
+• IUCN status badge & category
+• Additional fun facts or stats
+
+Auto-Update Data
+– Polling every X minutes from your hosted JSON or API.
+– Optional future WebSocket/SSE upgrade for real-time pushes.
+– Leverage GitHub Actions or a backend scheduler to refresh your cached JSON whenever upstream data changes.
+
+Geographic Clarity & De-Cluttering
+– Display country/region labels more clearly (e.g., on hover or always-on at high altitudes).
+– In high-density zones, cluster or “jitter” markers to avoid overlap; expand clusters on zoom.
+
+All-Occurrences View
+– When viewing a specific animal’s details, offer a “Show All Occurrences” button:
+• Plot every known location from your dataset.
+• Use larger/bright markers for high-occurrence areas, fainter for rare spots.
+
+Report Discrepancies
+– “Report Discrepancy” button in the details modal or main UI.
+– Opens a form (email input or embedded Google Form) for users to flag incorrect data.
+
+📣 Community & Content
+Blogs Section (behind login):
+– Users can register/login (Spring Boot or Firebase Auth).
+– Create, edit, delete their own blog posts.
+– Upvote/Downvote buttons on each post.
+– Authors see vote counts and view counters.
+– (Future) Comments area and social sharing.
+
+⚙️ Architecture & Tech Stack Suggestions
+Frontend:
+– Vanilla JS + Three.js/three-globe (no React/Vue needed)
+– Modular JS (ES modules), CSS for styling, GSAP or CSS for animations
+
+Landing Page:
+– Static HTML/CSS/JS (host on GitHub Pages, Netlify, or Replit)
+
+Backend:
+– Spring Boot for:
+
+Serving JSON & static assets
+
+REST API for search/filter/blogs
+
+Auth (Spring Security)
+
+Scheduling (auto-refresh data)
+
+Blog persistence (JPA + relational DB)
+– ML microservice (Flask/FastAPI) if you later add image-classifier
+
+Data Hosting:
+– GitHub repo for animals.json, images, videos
+– IUCN API token + cached JSON for statuses
