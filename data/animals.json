@@ -1,4 +1,3 @@
-
 [
   {
     "name": "African Elephant",
@@ -6,7 +5,15 @@
     "lat": -1.2921,
     "lon": 36.8219,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/african_elephant.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Savanna, grassland, forest",
+    "fun_fact": "Can weigh up to 6 tons and remember other elephants for decades",
+    "occurrences": [
+      {"country": "Tanzania", "lat": -6.3690, "lon": 34.8888},
+      {"country": "Botswana", "lat": -22.3285, "lon": 24.6849},
+      {"country": "South Africa", "lat": -30.5595, "lon": 22.9375}
+    ]
   },
   {
     "name": "Tiger",
@@ -14,7 +21,15 @@
     "lat": 20.5937,
     "lon": 78.9629,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/tiger.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical forests, grasslands",
+    "fun_fact": "Each tiger has unique stripe patterns like human fingerprints",
+    "occurrences": [
+      {"country": "China", "lat": 35.8617, "lon": 104.1954},
+      {"country": "Nepal", "lat": 28.3949, "lon": 84.1240},
+      {"country": "Bangladesh", "lat": 23.6850, "lon": 90.3563}
+    ]
   },
   {
     "name": "Giant Panda",
@@ -22,7 +37,14 @@
     "lat": 35.8617,
     "lon": 104.1954,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/giant_panda.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Bamboo forests",
+    "fun_fact": "Spends 14 hours a day eating bamboo and has a special thumb for gripping",
+    "occurrences": [
+      {"country": "China (Sichuan)", "lat": 30.6171, "lon": 102.7103},
+      {"country": "China (Shaanxi)", "lat": 35.1917, "lon": 108.8701}
+    ]
   },
   {
     "name": "Kangaroo",
@@ -30,7 +52,14 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/kangaroo.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "least_concern",
+    "habitat": "Grasslands, woodlands, deserts",
+    "fun_fact": "Cannot walk backwards and can hop at speeds up to 35 mph",
+    "occurrences": [
+      {"country": "Tasmania", "lat": -41.4545, "lon": 145.9707},
+      {"country": "Queensland", "lat": -20.9176, "lon": 142.7028}
+    ]
   },
   {
     "name": "Lion",
@@ -38,7 +67,15 @@
     "lat": -0.0236,
     "lon": 37.9062,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/lion.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Savanna, grassland, open woodlands",
+    "fun_fact": "A lion's roar can be heard from 5 miles away",
+    "occurrences": [
+      {"country": "Tanzania", "lat": -6.3690, "lon": 34.8888},
+      {"country": "South Africa", "lat": -30.5595, "lon": 22.9375},
+      {"country": "Botswana", "lat": -22.3285, "lon": 24.6849}
+    ]
   },
   {
     "name": "Polar Bear",
@@ -46,7 +83,15 @@
     "lat": 71.7069,
     "lon": -8.2314,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/polar_bear.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Arctic sea ice, coastal areas",
+    "fun_fact": "Has black skin under white fur and can swim up to 60 miles without rest",
+    "occurrences": [
+      {"country": "Canada", "lat": 56.1304, "lon": -106.3468},
+      {"country": "Alaska", "lat": 61.2181, "lon": -149.9003},
+      {"country": "Greenland", "lat": 71.7069, "lon": -42.6043}
+    ]
   },
   {
     "name": "Giraffe",
@@ -54,7 +99,15 @@
     "lat": -6.3690,
     "lon": 34.8888,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/giraffe.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Savanna, grassland, open woodlands",
+    "fun_fact": "Has the same number of neck vertebrae as humans (7) but each is 10 inches long",
+    "occurrences": [
+      {"country": "Kenya", "lat": -1.2921, "lon": 36.8219},
+      {"country": "South Africa", "lat": -30.5595, "lon": 22.9375},
+      {"country": "Namibia", "lat": -22.9576, "lon": 18.4904}
+    ]
   },
   {
     "name": "Penguin",
@@ -62,7 +115,15 @@
     "lat": -77.8419,
     "lon": 166.6863,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/penguin.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "near_threatened",
+    "habitat": "Antarctic ice, coastal waters",
+    "fun_fact": "Emperor penguins can dive to depths of 1,800 feet and hold breath for 22 minutes",
+    "occurrences": [
+      {"country": "Argentina", "lat": -38.4161, "lon": -63.6167},
+      {"country": "Chile", "lat": -35.6751, "lon": -71.5430},
+      {"country": "South Africa", "lat": -30.5595, "lon": 22.9375}
+    ]
   },
   {
     "name": "Koala",
@@ -70,7 +131,14 @@
     "lat": -33.8688,
     "lon": 151.2093,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/koala.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Eucalyptus forests",
+    "fun_fact": "Sleeps 18-22 hours per day and has fingerprints similar to humans",
+    "occurrences": [
+      {"country": "Queensland", "lat": -20.9176, "lon": 142.7028},
+      {"country": "Victoria", "lat": -36.5986, "lon": 142.6780}
+    ]
   },
   {
     "name": "Sloth",
@@ -78,694 +146,14 @@
     "lat": 9.7489,
     "lon": -83.7534,
     "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/sloth.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Cheetah",
-    "country": "Botswana",
-    "lat": -22.3285,
-    "lon": 24.6849,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/cheetah.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Orangutan",
-    "country": "Indonesia",
-    "lat": -0.7893,
-    "lon": 113.9213,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/orangutan.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Whale",
-    "country": "Pacific Ocean",
-    "lat": 35.6762,
-    "lon": 139.6503,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/whale.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Dolphin",
-    "country": "Bahamas",
-    "lat": 25.0343,
-    "lon": -77.3963,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/dolphin.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Zebra",
-    "country": "Kenya",
-    "lat": -1.2921,
-    "lon": 36.8219,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/zebra.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Hippopotamus",
-    "country": "Tanzania",
-    "lat": -6.3690,
-    "lon": 34.8888,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/hippopotamus.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Rhino",
-    "country": "South Africa",
-    "lat": -30.5595,
-    "lon": 22.9375,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/rhino.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Jaguar",
-    "country": "Brazil",
-    "lat": -14.2350,
-    "lon": -51.9253,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/jaguar.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Leopard",
-    "country": "Sri Lanka",
-    "lat": 7.8731,
-    "lon": 80.7718,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/leopard.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Gorilla",
-    "country": "Rwanda",
-    "lat": -1.9403,
-    "lon": 29.8739,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/gorilla.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Chimpanzee",
-    "country": "Uganda",
-    "lat": 1.3733,
-    "lon": 32.2903,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/chimpanzee.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Wolf",
-    "country": "Canada",
-    "lat": 56.1304,
-    "lon": -106.3468,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/wolf.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Fox",
-    "country": "United Kingdom",
-    "lat": 55.3781,
-    "lon": -3.4360,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/fox.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Bear",
-    "country": "Alaska",
-    "lat": 61.2181,
-    "lon": -149.9003,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/bear.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Panda",
-    "country": "China",
-    "lat": 35.8617,
-    "lon": 104.1954,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/panda.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Flamingo",
-    "country": "Chile",
-    "lat": -35.6751,
-    "lon": -71.5430,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/flamingo.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Eagle",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/eagle.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Owl",
-    "country": "Norway",
-    "lat": 60.4720,
-    "lon": 8.4689,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/owl.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Parrot",
-    "country": "Brazil",
-    "lat": -14.2350,
-    "lon": -51.9253,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/parrot.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Peacock",
-    "country": "India",
-    "lat": 20.5937,
-    "lon": 78.9629,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/peacock.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Toucan",
-    "country": "Costa Rica",
-    "lat": 9.7489,
-    "lon": -83.7534,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/toucan.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Hummingbird",
-    "country": "Ecuador",
-    "lat": -1.8312,
-    "lon": -78.1834,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/hummingbird.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Swan",
-    "country": "Denmark",
-    "lat": 56.2639,
-    "lon": 9.5018,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/swan.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Shark",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/shark.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Octopus",
-    "country": "Japan",
-    "lat": 36.2048,
-    "lon": 138.2529,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/octopus.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Jellyfish",
-    "country": "Mediterranean",
-    "lat": 35.0000,
-    "lon": 18.0000,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/jellyfish.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Seahorse",
-    "country": "Philippines",
-    "lat": 12.8797,
-    "lon": 121.7740,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/seahorse.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Turtle",
-    "country": "Galapagos",
-    "lat": -0.9538,
-    "lon": -89.4579,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/turtle.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Crocodile",
-    "country": "Egypt",
-    "lat": 26.8206,
-    "lon": 30.8025,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/crocodile.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Snake",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/snake.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Lizard",
-    "country": "Mexico",
-    "lat": 23.6345,
-    "lon": -102.5528,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/lizard.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Frog",
-    "country": "Costa Rica",
-    "lat": 9.7489,
-    "lon": -83.7534,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/frog.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Butterfly",
-    "country": "Mexico",
-    "lat": 23.6345,
-    "lon": -102.5528,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/butterfly.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Bee",
-    "country": "New Zealand",
-    "lat": -40.9006,
-    "lon": 174.8860,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/bee.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Ant",
-    "country": "Brazil",
-    "lat": -14.2350,
-    "lon": -51.9253,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/ant.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Spider",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/spider.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Scorpion",
-    "country": "Morocco",
-    "lat": 31.7917,
-    "lon": -7.0926,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/scorpion.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Camel",
-    "country": "Morocco",
-    "lat": 31.7917,
-    "lon": -7.0926,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/camel.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Horse",
-    "country": "Mongolia",
-    "lat": 46.8625,
-    "lon": 103.8467,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/horse.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Cow",
-    "country": "India",
-    "lat": 20.5937,
-    "lon": 78.9629,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/cow.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Sheep",
-    "country": "New Zealand",
-    "lat": -40.9006,
-    "lon": 174.8860,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/sheep.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Goat",
-    "country": "Nepal",
-    "lat": 28.3949,
-    "lon": 84.1240,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/goat.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Pig",
-    "country": "Denmark",
-    "lat": 56.2639,
-    "lon": 9.5018,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/pig.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Chicken",
-    "country": "Thailand",
-    "lat": 15.8700,
-    "lon": 100.9925,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/chicken.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Duck",
-    "country": "Netherlands",
-    "lat": 52.1326,
-    "lon": 5.2913,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/duck.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Goose",
-    "country": "Canada",
-    "lat": 56.1304,
-    "lon": -106.3468,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/goose.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Turkey",
-    "country": "Turkey",
-    "lat": 38.9637,
-    "lon": 35.2433,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/turkey.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Rabbit",
-    "country": "United Kingdom",
-    "lat": 55.3781,
-    "lon": -3.4360,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/rabbit.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Squirrel",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/squirrel.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Rat",
-    "country": "India",
-    "lat": 20.5937,
-    "lon": 78.9629,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/rat.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Mouse",
-    "country": "Germany",
-    "lat": 51.1657,
-    "lon": 10.4515,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/mouse.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Hedgehog",
-    "country": "United Kingdom",
-    "lat": 55.3781,
-    "lon": -3.4360,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/hedgehog.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Mole",
-    "country": "Germany",
-    "lat": 51.1657,
-    "lon": 10.4515,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/mole.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Bat",
-    "country": "Romania",
-    "lat": 45.9432,
-    "lon": 24.9668,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/bat.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Deer",
-    "country": "Scotland",
-    "lat": 56.4907,
-    "lon": -4.2026,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/deer.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Elk",
-    "country": "Norway",
-    "lat": 60.4720,
-    "lon": 8.4689,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/elk.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Moose",
-    "country": "Canada",
-    "lat": 56.1304,
-    "lon": -106.3468,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/moose.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Antelope",
-    "country": "Kenya",
-    "lat": -1.2921,
-    "lon": 36.8219,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/antelope.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Buffalo",
-    "country": "Tanzania",
-    "lat": -6.3690,
-    "lon": 34.8888,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/buffalo.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Bison",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/bison.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Yak",
-    "country": "Tibet",
-    "lat": 31.6927,
-    "lon": 88.0924,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/yak.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Llama",
-    "country": "Peru",
-    "lat": -9.1900,
-    "lon": -75.0152,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/llama.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Alpaca",
-    "country": "Peru",
-    "lat": -9.1900,
-    "lon": -75.0152,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/alpaca.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Seal",
-    "country": "Antarctica",
-    "lat": -77.8419,
-    "lon": 166.6863,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/seal.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Walrus",
-    "country": "Greenland",
-    "lat": 71.7069,
-    "lon": -42.6043,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/walrus.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Otter",
-    "country": "Canada",
-    "lat": 56.1304,
-    "lon": -106.3468,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/otter.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Beaver",
-    "country": "Canada",
-    "lat": 56.1304,
-    "lon": -106.3468,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/beaver.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Platypus",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/platypus.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Echidna",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/echidna.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Armadillo",
-    "country": "Argentina",
-    "lat": -38.4161,
-    "lon": -63.6167,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/armadillo.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Pangolin",
-    "country": "South Africa",
-    "lat": -30.5595,
-    "lon": 22.9375,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/pangolin.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Anteater",
-    "country": "Brazil",
-    "lat": -14.2350,
-    "lon": -51.9253,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/anteater.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Aardvark",
-    "country": "Botswana",
-    "lat": -22.3285,
-    "lon": 24.6849,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/aardvark.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Wombat",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/wombat.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Tasmanian Devil",
-    "country": "Tasmania",
-    "lat": -41.4545,
-    "lon": 145.9707,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/tasmanian_devil.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Quokka",
-    "country": "Australia",
-    "lat": -25.2744,
-    "lon": 133.7751,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/quokka.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Capybara",
-    "country": "Brazil",
-    "lat": -14.2350,
-    "lon": -51.9253,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/capybara.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Guinea Pig",
-    "country": "Peru",
-    "lat": -9.1900,
-    "lon": -75.0152,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/guinea_pig.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Chinchilla",
-    "country": "Chile",
-    "lat": -35.6751,
-    "lon": -71.5430,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/chinchilla.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Ferret",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/ferret.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Skunk",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/skunk.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Raccoon",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/raccoon.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Opossum",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/opossum.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Meerkat",
-    "country": "Botswana",
-    "lat": -22.3285,
-    "lon": 24.6849,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/meerkat.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Prairie Dog",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/prairie_dog.jpg",
-    "sound": ""
-  },
-  {
-    "name": "Groundhog",
-    "country": "United States",
-    "lat": 39.8283,
-    "lon": -98.5795,
-    "img": "https://raw.githubusercontent.com/Srivastava-Kush/animal-globe-assets/main/images/groundhog.jpg",
-    "sound": ""
+    "sound": "",
+    "iucn_status": "least_concern",
+    "habitat": "Tropical rainforests",
+    "fun_fact": "Moves so slowly that algae grows on its fur, providing camouflage",
+    "occurrences": [
+      {"country": "Brazil", "lat": -14.2350, "lon": -51.9253},
+      {"country": "Panama", "lat": 8.5380, "lon": -80.7821},
+      {"country": "Colombia", "lat": 4.5709, "lon": -74.2973}
+    ]
   }
 ]
