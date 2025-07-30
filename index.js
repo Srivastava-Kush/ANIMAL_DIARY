@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initFlashcardSlideshow();
 
     // Make functions globally available
+    window.initGlobe=initGlobe;
     window.showSection = showSection;
     window.enterGlobe = enterGlobe;
     window.backToLanding = backToLanding;
