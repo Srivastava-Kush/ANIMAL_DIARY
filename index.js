@@ -429,6 +429,7 @@ function onMouseMove(event) {
   }
 
   // Handle new hover
+
   if (intersects.length > 0) {
     const sprite = intersects[0].object;
     if (sprite !== hoveredSprite) {
