@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+
+.claude
+
+# Local env files (commit .env.example, never real .env)
+.env
+.env.*
+!.env.example
+
+# Large ML training artifacts (not used at runtime — the app loads
+# public/tfjs_model/* instead). Keep these out of git.
+*.keras
+*.h5
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

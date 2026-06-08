@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Render Blueprint — deploys both the Crawl & Review API (Web Service) and the
+# Animal Diary frontend (Static Site). Push this file to your repo root and use
+# Render's "New > Blueprint" to provision both at once, OR create the two
+# services manually with the build/start commands shown below.
+# ---------------------------------------------------------------------------
+services:
+  # 1) Backend API (Node Web Service)
+  - type: web
+    name: animal-diary-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: FRONTEND_ORIGIN
+        sync: false        # set to your static-site URL after first deploy
+      # PORT is injected by Render automatically.
+      # Optional persistence: attach a Disk and set DATA_DIR to its mount path.
+    # Uncomment to persist crawl data across deploys/restarts:
+    # disk:
+    #   name: crawl-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
+
+  # 2) Frontend (Static Site)
+  - type: web
+    name: animal-diary-web
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        sync: false        # set to the API service URL (https://animal-diary-api.onrender.com)
+    routes:
+      # SPA fallback so React Router routes (/crawl, /identify) work on refresh.
+      - type: rewrite
+        source: /*
+        destination: /index.html

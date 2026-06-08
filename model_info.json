@@ -1,0 +1,27 @@
+{
+  "species": [
+    "rhesus_macaque",
+    "bonnet_macaque",
+    "lion_tailed_macaque",
+    "hanuman_langur",
+    "golden_langur",
+    "hoolock_gibbon"
+  ],
+  "class_indices": {
+    "rhesus_macaque": 0,
+    "bonnet_macaque": 1,
+    "lion_tailed_macaque": 2,
+    "hanuman_langur": 3,
+    "golden_langur": 4,
+    "hoolock_gibbon": 5
+  },
+  "img_size": 300,
+  "confidence_threshold": 0.7,
+  "metrics": {
+    "accuracy": 0.8850931677018633,
+    "mean_f1": 0.8938934575474696,
+    "top2_accuracy": 0.9813664596273292,
+    "pct_uncertain": 22.67080745341615
+  },
+  "trained_at": "2026-06-04T11:14:35.538984"
+}

@@ -1,0 +1,4284 @@
+[
+  {
+    "name": "Aardvark",
+    "country": "South Africa",
+    "lat": -30.5595,
+    "lon": 22.9375,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Orycteropus_afer.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Savannas, grasslands, woodlands",
+    "fun_fact": "Can dig faster than team of men with shovels, eats 50000 ants and termites per night",
+    "occurrences": [
+      {
+        "country": "Botswana",
+        "lat": -22.3285,
+        "lon": 24.6849
+      },
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      }
+    ]
+  },
+  {
+    "name": "African Forest Elephant",
+    "country": "Central African Republic",
+    "lat": 4.3612,
+    "lon": 18.555,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Loxodonta_cyclotis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest, dense woodland",
+    "fun_fact": "Can live up to 70 years and have excellent memory spanning decades",
+    "occurrences": [
+      {
+        "country": "Cameroon",
+        "lat": 7.3697,
+        "lon": 12.3547
+      },
+      {
+        "country": "Gabon",
+        "lat": -0.8037,
+        "lon": 11.6094
+      },
+      {
+        "country": "Republic of Congo",
+        "lat": -0.228,
+        "lon": 15.8277
+      }
+    ]
+  },
+  {
+    "name": "African Grey Parrot",
+    "country": "Cameroon",
+    "lat": 4.0511,
+    "lon": 9.7679,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Psittacus_erithacus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical forests",
+    "fun_fact": "Exceptional mimic with advanced problem-solving abilities",
+    "occurrences": [
+      {
+        "country": "Congo",
+        "lat": -0.228,
+        "lon": 15.8277
+      }
+    ]
+  },
+  {
+    "name": "African Manatee",
+    "country": "Senegal",
+    "lat": 14.4974,
+    "lon": -14.4524,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichechus_senegalensis.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Coastal waters, rivers, lagoons",
+    "fun_fact": "Lives in both saltwater and freshwater, least studied manatee species",
+    "occurrences": [
+      {
+        "country": "Guinea-Bissau",
+        "lat": 11.8037,
+        "lon": -15.1804
+      },
+      {
+        "country": "Ivory Coast",
+        "lat": 7.5399,
+        "lon": -5.5471
+      }
+    ]
+  },
+  {
+    "name": "African Penguin",
+    "country": "South Africa",
+    "lat": -33.9249,
+    "lon": 18.4241,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spheniscus_demersus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal islands, rocky shores",
+    "fun_fact": "Also called jackass penguin due to braying call",
+    "occurrences": [
+      {
+        "country": "Namibia",
+        "lat": -22.9576,
+        "lon": 14.5053
+      }
+    ]
+  },
+  {
+    "name": "African Savanna Elephant",
+    "country": "Botswana",
+    "lat": -22.3285,
+    "lon": 24.6849,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Loxodonta_africana.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Grasslands, forests, deserts, marshes",
+    "fun_fact": "Largest land animal on Earth, can weigh up to 6 tons and live 60-70 years",
+    "occurrences": [
+      {
+        "country": "Zimbabwe",
+        "lat": -19.0154,
+        "lon": 29.1549
+      },
+      {
+        "country": "Zambia",
+        "lat": -13.1339,
+        "lon": 27.8493
+      },
+      {
+        "country": "South Africa",
+        "lat": -30.5595,
+        "lon": 22.9375
+      }
+    ]
+  },
+  {
+    "name": "African Wild Ass",
+    "country": "Eritrea",
+    "lat": 15.3229,
+    "lon": 38.9251,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_africanus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Arid deserts, rocky plains",
+    "fun_fact": "Ancestor of domestic donkey; extremely adapted to drought",
+    "occurrences": [
+      {
+        "country": "Ethiopia",
+        "lat": 11.5721,
+        "lon": 41.4386
+      }
+    ]
+  },
+  {
+    "name": "African Wild Dog",
+    "country": "Botswana",
+    "lat": -22.3285,
+    "lon": 24.6849,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lycaon_pictus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Savannas, grasslands, sparse woodlands",
+    "fun_fact": "Most successful predator in Africa with 80% hunt success rate, living in highly social packs",
+    "occurrences": [
+      {
+        "country": "Tanzania",
+        "lat": -6.369,
+        "lon": 34.8888
+      },
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      },
+      {
+        "country": "South Africa",
+        "lat": -24.5,
+        "lon": 28
+      }
+    ]
+  },
+  {
+    "name": "Agile Gibbon",
+    "country": "Indonesia",
+    "lat": -0.7893,
+    "lon": 100.65,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_agilis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary and secondary rainforest",
+    "fun_fact": "Most acrobatic of gibbons, can change direction mid-swing",
+    "occurrences": [
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      }
+    ]
+  },
+  {
+    "name": "Amazon Manatee",
+    "country": "Brazil",
+    "lat": -3.4653,
+    "lon": -62.2159,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichechus_inunguis.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Amazon river system, flooded forests",
+    "fun_fact": "Smallest manatee species, only fully freshwater manatee",
+    "occurrences": [
+      {
+        "country": "Peru",
+        "lat": -9.19,
+        "lon": -75.0152
+      },
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      }
+    ]
+  },
+  {
+    "name": "Amur Leopard",
+    "country": "Russia",
+    "lat": 44.45,
+    "lon": 134.25,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/AmurLeopard2.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Temperate forests, mountainous regions",
+    "fun_fact": "Only about 100 individuals remain in the wild, making it one of the rarest cats on Earth",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 46,
+        "lon": 134
+      }
+    ]
+  },
+  {
+    "name": "Andean Condor",
+    "country": "Peru",
+    "lat": -13.5319,
+    "lon": -71.9675,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vultur_gryphus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Andean mountains, open highlands",
+    "fun_fact": "One of the largest flying birds with 3.3 m wingspan",
+    "occurrences": [
+      {
+        "country": "Chile",
+        "lat": -33.4489,
+        "lon": -70.6693
+      }
+    ]
+  },
+  {
+    "name": "Antarctic Fur Seal",
+    "country": "South Georgia",
+    "lat": -54.4296,
+    "lon": -36.5879,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_gazella.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Subantarctic islands, pack ice",
+    "fun_fact": "Remarkable recovery from near extinction, population now over 4 million",
+    "occurrences": [
+      {
+        "country": "Antarctica",
+        "lat": -77.84,
+        "lon": 166.68
+      }
+    ]
+  },
+  {
+    "name": "Arabian Leopard",
+    "country": "Saudi Arabia",
+    "lat": 23.8859,
+    "lon": 45.0792,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_pardus_nimr.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Mountains, rocky outcrops, wadis",
+    "fun_fact": "Smallest leopard subspecies with fewer than 200 individuals remaining",
+    "occurrences": [
+      {
+        "country": "Yemen",
+        "lat": 15.5527,
+        "lon": 48.5164
+      },
+      {
+        "country": "Oman",
+        "lat": 21.4735,
+        "lon": 55.9754
+      }
+    ]
+  },
+  {
+    "name": "Arabian Oryx",
+    "country": "Oman",
+    "lat": 21.4735,
+    "lon": 55.9754,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oryx_leucoryx.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Desert, semi-desert grasslands",
+    "fun_fact": "Successfully brought back from extinction in wild through captive breeding programs",
+    "occurrences": [
+      {
+        "country": "Saudi Arabia",
+        "lat": 23.8859,
+        "lon": 45.0792
+      },
+      {
+        "country": "United Arab Emirates",
+        "lat": 23.4241,
+        "lon": 53.8478
+      }
+    ]
+  },
+  {
+    "name": "Arctic Fox",
+    "country": "Norway",
+    "lat": 70,
+    "lon": 25,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vulpes_lagopus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic tundra, coastal areas, pack ice",
+    "fun_fact": "Changes coat color from brown in summer to white in winter, smallest Arctic fox weighs only 3kg",
+    "occurrences": [
+      {
+        "country": "Canada",
+        "lat": 74.0059,
+        "lon": -105.0067
+      },
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      },
+      {
+        "country": "Iceland",
+        "lat": 64.9631,
+        "lon": -19.0208
+      }
+    ]
+  },
+  {
+    "name": "Asian Elephant",
+    "country": "India",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_indicus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Grasslands, tropical forests, scrublands",
+    "fun_fact": "Smaller than African elephants with smaller, rounded ears shaped like the Indian subcontinent",
+    "occurrences": [
+      {
+        "country": "Sri Lanka",
+        "lat": 7.8731,
+        "lon": 80.7718
+      },
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      }
+    ]
+  },
+  {
+    "name": "Australian Sea Lion",
+    "country": "Australia",
+    "lat": -34.9285,
+    "lon": 138.6007,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Neophoca_cinerea.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Sandy beaches, rocky shores",
+    "fun_fact": "Only sea lion endemic to Australia, unusual 18-month breeding cycle",
+    "occurrences": []
+  },
+  {
+    "name": "Axolotl",
+    "country": "Mexico",
+    "lat": 19.2464,
+    "lon": -99.1013,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambystoma_mexicanum.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Lake systems, canals",
+    "fun_fact": "Can regenerate entire limbs, organs, and parts of brain, remains aquatic throughout life",
+    "occurrences": []
+  },
+  {
+    "name": "Bactrian Camel",
+    "country": "Mongolia",
+    "lat": 46.8625,
+    "lon": 103.8467,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Camelus_bactrianus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Desert steppes, arid grasslands",
+    "fun_fact": "Wild population of fewer than 1000, can drink 40 gallons of water in minutes",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 35.8617,
+        "lon": 104.1954
+      }
+    ]
+  },
+  {
+    "name": "Baikal Seal",
+    "country": "Russia",
+    "lat": 53.5587,
+    "lon": 108.165,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pusa_sibirica.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Lake Baikal, freshwater",
+    "fun_fact": "Only freshwater seal, endemic to Lake Baikal with excellent eyesight underwater",
+    "occurrences": []
+  },
+  {
+    "name": "Baird's Tapir",
+    "country": "Costa Rica",
+    "lat": 9.7489,
+    "lon": -83.7534,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapirus_bairdii.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical forests, wetlands",
+    "fun_fact": "Largest native land mammal in Central America",
+    "occurrences": [
+      {
+        "country": "Panama",
+        "lat": 8.538,
+        "lon": -80.7821
+      }
+    ]
+  },
+  {
+    "name": "Bali Myna",
+    "country": "Indonesia",
+    "lat": -8.4095,
+    "lon": 115.1889,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leucopsar_rothschildi.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dry monsoon forests",
+    "fun_fact": "Iconic white plumage with blue eye skin; intensive captive breeding",
+    "occurrences": []
+  },
+  {
+    "name": "Bearded Seal",
+    "country": "Alaska",
+    "lat": 64.0685,
+    "lon": -152.2782,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Erignathus_barbatus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic pack ice, shallow waters",
+    "fun_fact": "Largest Arctic seal with distinctive long whiskers used for finding food on sea floor",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      },
+      {
+        "country": "Canada",
+        "lat": 74.0059,
+        "lon": -105.0067
+      }
+    ]
+  },
+  {
+    "name": "Beluga Sturgeon",
+    "country": "Kazakhstan",
+    "lat": 45,
+    "lon": 50,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Huso_huso.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Caspian and Black Sea basins",
+    "fun_fact": "Largest sturgeon; source of prized beluga caviar",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 46,
+        "lon": 48
+      }
+    ]
+  },
+  {
+    "name": "Beluga Whale",
+    "country": "Canada",
+    "lat": 74.0059,
+    "lon": -105.0067,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Delphinapterus_leucas.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic and subarctic waters",
+    "fun_fact": "Only whale that can turn its head and change facial expressions, white color develops with age",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      },
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      },
+      {
+        "country": "Norway",
+        "lat": 78.2232,
+        "lon": 15.6267
+      }
+    ]
+  },
+  {
+    "name": "Bengal Florican",
+    "country": "Cambodia",
+    "lat": 12.7,
+    "lon": 104.9,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Houbaropsis_bengalensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Seasonal grasslands",
+    "fun_fact": "Males perform dramatic aerial displays in breeding season",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 26,
+        "lon": 91
+      }
+    ]
+  },
+  {
+    "name": "Bigeye Tuna",
+    "country": "Japan",
+    "lat": 36.2048,
+    "lon": 138.2529,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thunnus_obesus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Tropical and subtropical oceanic waters",
+    "fun_fact": "Can dive deeper than other tuna species, reaching depths over 500 meters",
+    "occurrences": [
+      {
+        "country": "Ecuador",
+        "lat": -1.8312,
+        "lon": -78.1834
+      },
+      {
+        "country": "Philippines",
+        "lat": 12.8797,
+        "lon": 121.774
+      },
+      {
+        "country": "Mexico",
+        "lat": 23.6345,
+        "lon": -102.5528
+      }
+    ]
+  },
+  {
+    "name": "Binturong",
+    "country": "Malaysia",
+    "lat": 4.2105,
+    "lon": 101.9758,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctictis_binturong.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Tropical rainforest canopy",
+    "fun_fact": "Bearcat that smells like popcorn due to chemical in urine, has prehensile tail",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Indonesia",
+        "lat": -0.7893,
+        "lon": 113.9213
+      }
+    ]
+  },
+  {
+    "name": "Black Rhino",
+    "country": "Namibia",
+    "lat": -22.9576,
+    "lon": 18.4904,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diceros_bicornis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Semi-desert savanna, woodlands, forests, wetlands",
+    "fun_fact": "Has two horns made of keratin, the same material as human hair and nails",
+    "occurrences": [
+      {
+        "country": "South Africa",
+        "lat": -30.5595,
+        "lon": 22.9375
+      },
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      },
+      {
+        "country": "Tanzania",
+        "lat": -6.369,
+        "lon": 34.8888
+      }
+    ]
+  },
+  {
+    "name": "Black Snub-nosed Monkey",
+    "country": "China",
+    "lat": 26,
+    "lon": 99,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinopithecus_bieti.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coniferous and mixed forests",
+    "fun_fact": "Lives in high altitude forests, can survive temperatures down to -15Â°C",
+    "occurrences": []
+  },
+  {
+    "name": "Black Spider Monkey",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ateles_paniscus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Primary rainforest canopy",
+    "fun_fact": "No thumbs but highly dexterous, can swing through trees at 35 mph",
+    "occurrences": [
+      {
+        "country": "Suriname",
+        "lat": 3.9193,
+        "lon": -56.0278
+      },
+      {
+        "country": "Guyana",
+        "lat": 4.8604,
+        "lon": -58.9302
+      },
+      {
+        "country": "French Guiana",
+        "lat": 3.9339,
+        "lon": -53.1258
+      }
+    ]
+  },
+  {
+    "name": "Black-footed Ferret",
+    "country": "United States",
+    "lat": 44.2619,
+    "lon": -72.5806,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mustela_nigripes.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Great Plains grasslands and prairies",
+    "fun_fact": "Once thought extinct, now recovering through captive breeding programs with about 300 in wild",
+    "occurrences": []
+  },
+  {
+    "name": "Blue Whale",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaenoptera_musculus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Open ocean, polar and subpolar waters",
+    "fun_fact": "Largest animal ever known to exist, heart alone can weigh as much as a car",
+    "occurrences": [
+      {
+        "country": "Chile",
+        "lat": -35.6751,
+        "lon": -71.543
+      },
+      {
+        "country": "California",
+        "lat": 36.7783,
+        "lon": -119.4179
+      },
+      {
+        "country": "Australia",
+        "lat": -25.2744,
+        "lon": 133.7751
+      }
+    ]
+  },
+  {
+    "name": "Bluefin Tuna",
+    "country": "Japan",
+    "lat": 36.2048,
+    "lon": 138.2529,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thunnus_thynnus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Open ocean, temperate and tropical waters",
+    "fun_fact": "Can swim up to 70 km/h and regulate body temperature like warm-blooded animals",
+    "occurrences": [
+      {
+        "country": "Spain",
+        "lat": 40.4637,
+        "lon": -3.7492
+      },
+      {
+        "country": "Turkey",
+        "lat": 38.9637,
+        "lon": 35.2433
+      },
+      {
+        "country": "United States",
+        "lat": 39.8283,
+        "lon": -98.5795
+      }
+    ]
+  },
+  {
+    "name": "Bonnet Macaque",
+    "country": "India",
+    "lat": 9.4622,
+    "lon": 77.2368,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonnet_macaque_(Macaca_radiata)_Photograph_By_Shantanu_Kuveskar.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Southern India — forests, gardens, and urban areas in Karnataka, Tamil Nadu and Kerala",
+    "fun_fact": "Named for its distinctive cap of radiating hair; endemic to peninsular India and found nowhere else on Earth",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 13.3702,
+        "lon": 77.6835
+      },
+      {
+        "country": "India",
+        "lat": 15.3099,
+        "lon": 74.3134
+      },
+      {
+        "country": "India",
+        "lat": 13.5673,
+        "lon": 75.1347
+      },
+      {
+        "country": "India",
+        "lat": 18.9635,
+        "lon": 72.9321
+      },
+      {
+        "country": "India",
+        "lat": 11.4064,
+        "lon": 76.6932
+      },
+      {
+        "country": "India",
+        "lat": 10.4502,
+        "lon": 76.7701
+      },
+      {
+        "country": "India",
+        "lat": 9.6031,
+        "lon": 77.1615
+      },
+      {
+        "country": "India",
+        "lat": 15.9546,
+        "lon": 73.9948
+      },
+      {
+        "country": "India",
+        "lat": 12.2737,
+        "lon": 76.6703
+      },
+      {
+        "country": "India",
+        "lat": 12.0734,
+        "lon": 76.1511
+      }
+    ]
+  },
+  {
+    "name": "Bonobo",
+    "country": "Democratic Republic of Congo",
+    "lat": -4.0383,
+    "lon": 21.7587,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pan_paniscus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Lowland rainforest",
+    "fun_fact": "Shares 98.8% DNA with humans and resolves conflicts through affection rather than aggression",
+    "occurrences": []
+  },
+  {
+    "name": "Bornean Elephant",
+    "country": "Malaysia",
+    "lat": 4.2105,
+    "lon": 117.89,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_borneensis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical rainforest, grasslands near forest",
+    "fun_fact": "Smallest elephant subspecies with largest ears relative to body size among Asian elephants",
+    "occurrences": [
+      {
+        "country": "Indonesia",
+        "lat": -0.7893,
+        "lon": 113.9213
+      }
+    ]
+  },
+  {
+    "name": "Bornean Orangutan",
+    "country": "Indonesia",
+    "lat": -0.7893,
+    "lon": 113.9213,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pongo_pygmaeus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest canopy",
+    "fun_fact": "Shares 97% of its DNA with humans and can use tools to extract honey and insects",
+    "occurrences": [
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 117.89
+      }
+    ]
+  },
+  {
+    "name": "Bouvier's Red Colobus",
+    "country": "Democratic Republic of Congo",
+    "lat": -4.0383,
+    "lon": 21.7587,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_badius_bouvieri.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Lowland rainforest",
+    "fun_fact": "Rediscovered in 2015 after being thought extinct, extremely rare",
+    "occurrences": []
+  },
+  {
+    "name": "Bowhead Whale",
+    "country": "Canada",
+    "lat": 74.0059,
+    "lon": -105.0067,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaena_mysticetus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic and subarctic waters",
+    "fun_fact": "Can live over 200 years, thickest blubber of any whale up to 70cm thick",
+    "occurrences": [
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      },
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      }
+    ]
+  },
+  {
+    "name": "Bush Dog",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Speothos_venaticus.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Tropical rainforests, wet savannas",
+    "fun_fact": "Short-legged pack hunter with webbed feet, excellent swimmer",
+    "occurrences": [
+      {
+        "country": "Peru",
+        "lat": -9.19,
+        "lon": -75.0152
+      },
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      }
+    ]
+  },
+  {
+    "name": "Cape Fur Seal",
+    "country": "South Africa",
+    "lat": -34.0522,
+    "lon": 18.4232,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_pusillus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky coastlines, offshore islands",
+    "fun_fact": "Largest fur seal species, can dive to depths of 204 meters",
+    "occurrences": [
+      {
+        "country": "Namibia",
+        "lat": -22.9576,
+        "lon": 18.4904
+      }
+    ]
+  },
+  {
+    "name": "Capybara",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrochoerus_hydrochaeris.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Wetlands, grasslands near water",
+    "fun_fact": "World's largest rodent, excellent swimmer, very social and calm disposition",
+    "occurrences": [
+      {
+        "country": "Venezuela",
+        "lat": 6.4238,
+        "lon": -66.5897
+      },
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      }
+    ]
+  },
+  {
+    "name": "Caracal",
+    "country": "South Africa",
+    "lat": -30.5595,
+    "lon": 22.9375,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caracal_caracal.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Savannas, scrublands, deserts",
+    "fun_fact": "Can leap 3 meters high to catch birds, distinctive black ear tufts",
+    "occurrences": [
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      },
+      {
+        "country": "India",
+        "lat": 20.5937,
+        "lon": 78.9629
+      }
+    ]
+  },
+  {
+    "name": "Caribbean Monk Seal",
+    "country": "Caribbean",
+    "lat": 18.2208,
+    "lon": -66.5901,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Neomonachus_tropicalis.jpg",
+    "sound": "",
+    "iucn_status": "extinct",
+    "habitat": "Tropical beaches, coral atolls",
+    "fun_fact": "Declared extinct in 2008, last confirmed sighting in 1952",
+    "occurrences": []
+  },
+  {
+    "name": "Caribou",
+    "country": "Canada",
+    "lat": 60,
+    "lon": -95,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangifer_tarandus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Arctic and subarctic tundra, boreal forests",
+    "fun_fact": "Both males and females have antlers, can travel 5000km annually in migration",
+    "occurrences": [
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      },
+      {
+        "country": "Norway",
+        "lat": 60.472,
+        "lon": 8.4689
+      },
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      }
+    ]
+  },
+  {
+    "name": "Caspian Seal",
+    "country": "Russia",
+    "lat": 45,
+    "lon": 50,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pusa_caspica.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Caspian Sea, ice floes",
+    "fun_fact": "Endemic to Caspian Sea, population declined 90% since early 1900s",
+    "occurrences": [
+      {
+        "country": "Kazakhstan",
+        "lat": 48.0196,
+        "lon": 66.9237
+      },
+      {
+        "country": "Iran",
+        "lat": 37,
+        "lon": 53
+      }
+    ]
+  },
+  {
+    "name": "Cheetah",
+    "country": "Namibia",
+    "lat": -22.9576,
+    "lon": 18.4904,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Acinonyx_jubatus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Grasslands, savannas, semi-deserts",
+    "fun_fact": "Fastest land animal reaching 70 mph, cannot retract claws like other cats",
+    "occurrences": [
+      {
+        "country": "Botswana",
+        "lat": -22.3285,
+        "lon": 24.6849
+      },
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      },
+      {
+        "country": "Tanzania",
+        "lat": -6.369,
+        "lon": 34.8888
+      }
+    ]
+  },
+  {
+    "name": "Chimpanzee",
+    "country": "Tanzania",
+    "lat": -6.369,
+    "lon": 34.8888,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pan_troglodytes.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical rainforest, woodland savanna, montane forest",
+    "fun_fact": "Use tools for hunting and have complex social structures with distinct cultures",
+    "occurrences": [
+      {
+        "country": "Uganda",
+        "lat": 1.3733,
+        "lon": 32.2903
+      },
+      {
+        "country": "Cameroon",
+        "lat": 7.3697,
+        "lon": 12.3547
+      },
+      {
+        "country": "Democratic Republic of Congo",
+        "lat": -4.0383,
+        "lon": 21.7587
+      }
+    ]
+  },
+  {
+    "name": "Chinese Alligator",
+    "country": "China",
+    "lat": 30.28,
+    "lon": 117.2,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alligator_sinensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Rice paddies, slow rivers, marshes",
+    "fun_fact": "Smallest crocodilian, endemic to lower Yangtze valley",
+    "occurrences": []
+  },
+  {
+    "name": "Chinese Giant Salamander",
+    "country": "China",
+    "lat": 29.5,
+    "lon": 109.5,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrias_davidianus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Cold, fast-flowing mountain streams",
+    "fun_fact": "World's largest amphibian exceeding 1.7 m",
+    "occurrences": []
+  },
+  {
+    "name": "Chinese Pangolin",
+    "country": "Vietnam",
+    "lat": 21.0285,
+    "lon": 105.8542,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manis_pentadactyla.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Subtropical forests, plantations",
+    "fun_fact": "Scales made of keratin; most trafficked mammal",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 24.4798,
+        "lon": 118.0894
+      }
+    ]
+  },
+  {
+    "name": "Crabeater Seal",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lobodon_carcinophaga.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Antarctic pack ice",
+    "fun_fact": "Most abundant seal species in world, doesn't eat crabs but feeds on krill",
+    "occurrences": []
+  },
+  {
+    "name": "Cross River Gorilla",
+    "country": "Cameroon",
+    "lat": 6.3,
+    "lon": 9.05,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_gorilla_diehli.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest, montane forest",
+    "fun_fact": "Only about 200-300 individuals exist, making it the world's rarest gorilla subspecies",
+    "occurrences": [
+      {
+        "country": "Nigeria",
+        "lat": 6.4,
+        "lon": 8.9
+      }
+    ]
+  },
+  {
+    "name": "Darwin's Finches",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Geospiza_fortis.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Various habitats across GalÃ¡pagos islands",
+    "fun_fact": "Inspired Darwin's theory of evolution, different beak shapes for different food sources",
+    "occurrences": []
+  },
+  {
+    "name": "Dhole",
+    "country": "India",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuon_alpinus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Deciduous forests, alpine regions",
+    "fun_fact": "Pack hunters that can take down prey much larger than themselves, excellent swimmers",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      }
+    ]
+  },
+  {
+    "name": "Drill",
+    "country": "Cameroon",
+    "lat": 7.3697,
+    "lon": 12.3547,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandrillus_leucophaeus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical rainforest",
+    "fun_fact": "Closely related to mandrill, males have colorful facial features that intensify with age",
+    "occurrences": [
+      {
+        "country": "Equatorial Guinea",
+        "lat": 1.6508,
+        "lon": 10.2679
+      }
+    ]
+  },
+  {
+    "name": "Dugong",
+    "country": "Australia",
+    "lat": -16.283,
+    "lon": 145.7781,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dugong_dugon.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Shallow coastal waters, seagrass beds",
+    "fun_fact": "Only marine mammal that is strictly herbivorous, inspired mermaid legends",
+    "occurrences": [
+      {
+        "country": "Egypt",
+        "lat": 26.8206,
+        "lon": 30.8025
+      },
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Philippines",
+        "lat": 12.8797,
+        "lon": 121.774
+      }
+    ]
+  },
+  {
+    "name": "Eastern Lowland Gorilla",
+    "country": "Democratic Republic of Congo",
+    "lat": -2.284,
+    "lon": 28.86,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_beringei_graueri.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Lowland tropical rainforest, montane forest",
+    "fun_fact": "Largest living primate, adult males can weigh up to 250 kg",
+    "occurrences": []
+  },
+  {
+    "name": "Emperor Penguin",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aptenodytes_forsteri.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Antarctic ice shelves, pack ice",
+    "fun_fact": "Tallest penguin species, males incubate eggs for 64 days without eating in Antarctic winter",
+    "occurrences": []
+  },
+  {
+    "name": "European Eel",
+    "country": "United Kingdom",
+    "lat": 52,
+    "lon": 1,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Anguilla_anguilla.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Rivers, estuaries, coastal seas",
+    "fun_fact": "Spawns in the Sargasso Sea after trans-Atlantic migration",
+    "occurrences": [
+      {
+        "country": "Spain",
+        "lat": 40.4637,
+        "lon": -3.7492
+      }
+    ]
+  },
+  {
+    "name": "Fin Whale",
+    "country": "Norway",
+    "lat": 60.472,
+    "lon": 8.4689,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaenoptera_physalus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Deep offshore waters, continental shelf areas",
+    "fun_fact": "Second largest whale species, can reach speeds of 47 km/h making them fastest baleen whales",
+    "occurrences": [
+      {
+        "country": "Iceland",
+        "lat": 64.9631,
+        "lon": -19.0208
+      },
+      {
+        "country": "Canada",
+        "lat": 56.1304,
+        "lon": -106.3468
+      },
+      {
+        "country": "Chile",
+        "lat": -35.6751,
+        "lon": -71.543
+      }
+    ]
+  },
+  {
+    "name": "Fishing Cat",
+    "country": "India",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Prionailurus_viverrinus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Wetlands, mangroves, marshes",
+    "fun_fact": "One of few cats that loves water, excellent swimmer and diver",
+    "occurrences": [
+      {
+        "country": "Bangladesh",
+        "lat": 23.685,
+        "lon": 90.3563
+      },
+      {
+        "country": "Sri Lanka",
+        "lat": 7.8731,
+        "lon": 80.7718
+      }
+    ]
+  },
+  {
+    "name": "Flatback Sea Turtle",
+    "country": "Australia",
+    "lat": -25.2744,
+    "lon": 133.7751,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Natator_depressus.jpg",
+    "sound": "",
+    "iucn_status": "data deficient",
+    "habitat": "Coastal waters, continental shelf",
+    "fun_fact": "Only sea turtle that doesn't migrate between oceans, endemic to Australian waters",
+    "occurrences": []
+  },
+  {
+    "name": "Flightless Cormorant",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax_harrisi.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Rocky shorelines, shallow coastal waters",
+    "fun_fact": "Lost ability to fly but excellent underwater swimmer, found only in GalÃ¡pagos",
+    "occurrences": []
+  },
+  {
+    "name": "Fossa",
+    "country": "Madagascar",
+    "lat": -18.7669,
+    "lon": 46.8691,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptoprocta_ferox.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Tropical dry forests, rainforests",
+    "fun_fact": "Madagascar's largest predator, can rotate ankles to climb down trees headfirst",
+    "occurrences": []
+  },
+  {
+    "name": "Francois' Langur",
+    "country": "China",
+    "lat": 25,
+    "lon": 110,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trachypithecus_francoisi.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Limestone cliffs, tropical forests",
+    "fun_fact": "Lives on steep limestone cliffs, babies are bright orange",
+    "occurrences": [
+      {
+        "country": "Vietnam",
+        "lat": 14.0583,
+        "lon": 108.2772
+      }
+    ]
+  },
+  {
+    "name": "GalÃ¡pagos Fur Seal",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_galapagoensis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Rocky shores, caves, shaded areas",
+    "fun_fact": "Smallest fur seal species, spends day in shade due to equatorial heat",
+    "occurrences": []
+  },
+  {
+    "name": "GalÃ¡pagos Hawk",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_galapagoensis.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Various habitats from coast to highlands",
+    "fun_fact": "Only resident raptor in GalÃ¡pagos, practices cooperative polyandry",
+    "occurrences": []
+  },
+  {
+    "name": "GalÃ¡pagos Land Iguana",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Conolophus_subcristatus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Dry lowlands, rocky areas",
+    "fun_fact": "Can live over 60 years, important seed dispersers for cacti",
+    "occurrences": []
+  },
+  {
+    "name": "GalÃ¡pagos Penguin",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spheniscus_mendiculus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Rocky shores, coastal waters of GalÃ¡pagos",
+    "fun_fact": "Only penguin species found north of equator, adapted to tropical climate",
+    "occurrences": []
+  },
+  {
+    "name": "GalÃ¡pagos Tortoise",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelonoidis_niger.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Various island habitats from arid to humid zones",
+    "fun_fact": "Can live over 150 years, largest living tortoise species weighing up to 400kg",
+    "occurrences": []
+  },
+  {
+    "name": "Ganges River Dolphin",
+    "country": "India",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Platanista_gangetica.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Ganges and Brahmaputra river systems",
+    "fun_fact": "Functionally blind, navigates using echolocation and can live up to 28 years",
+    "occurrences": [
+      {
+        "country": "Bangladesh",
+        "lat": 23.685,
+        "lon": 90.3563
+      },
+      {
+        "country": "Nepal",
+        "lat": 28.3949,
+        "lon": 84.124
+      }
+    ]
+  },
+  {
+    "name": "Ganges Shark",
+    "country": "India",
+    "lat": 22,
+    "lon": 88,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Glyphis_gangeticus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Turbid freshwater rivers",
+    "fun_fact": "Rare river shark endemic to the Ganges-Brahmaputra system",
+    "occurrences": [
+      {
+        "country": "Bangladesh",
+        "lat": 23.685,
+        "lon": 90.3563
+      }
+    ]
+  },
+  {
+    "name": "Gelada",
+    "country": "Ethiopia",
+    "lat": 9.145,
+    "lon": 40.4897,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Theropithecus_gelada.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "High altitude grasslands",
+    "fun_fact": "Only primate that is primarily grass-eating, lives at altitudes up to 4400m",
+    "occurrences": []
+  },
+  {
+    "name": "Giant Anteater",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Myrmecophaga_tridactyla.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Grasslands, savannas, forests",
+    "fun_fact": "Long sticky tongue up to 60 cm for catching ants",
+    "occurrences": [
+      {
+        "country": "Paraguay",
+        "lat": -23.4425,
+        "lon": -58.4438
+      }
+    ]
+  },
+  {
+    "name": "Giant Manta Ray",
+    "country": "Maldives",
+    "lat": 3.2028,
+    "lon": 73.2207,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mobula_birostris.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical and subtropical oceans",
+    "fun_fact": "Largest ray with wingspan over 7 m; filter-feeder",
+    "occurrences": [
+      {
+        "country": "Ecuador",
+        "lat": -0.9538,
+        "lon": -80.765
+      }
+    ]
+  },
+  {
+    "name": "Golden Langur",
+    "country": "India",
+    "lat": 26.4014,
+    "lon": 90.6355,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trachypithecus_geei_in_Assam.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical and subtropical forests along the Assam-Bhutan border and Manas National Park",
+    "fun_fact": "Discovered by science only in 1956; its striking golden coat deepens to cream-white in winter",
+    "occurrences": [
+      {
+        "country": "Bhutan",
+        "lat": 27.0248,
+        "lon": 90.4216
+      },
+      {
+        "country": "Bhutan",
+        "lat": 27.1712,
+        "lon": 90.7919
+      },
+      {
+        "country": "Bhutan",
+        "lat": 27.125,
+        "lon": 90.7334
+      },
+      {
+        "country": "India",
+        "lat": 26.7809,
+        "lon": 90.9626
+      },
+      {
+        "country": "India",
+        "lat": 26.1961,
+        "lon": 91.745
+      },
+      {
+        "country": "India",
+        "lat": 26.1965,
+        "lon": 91.7448
+      },
+      {
+        "country": "Bhutan",
+        "lat": 27.1256,
+        "lon": 90.7697
+      },
+      {
+        "country": "Bhutan",
+        "lat": 27.3466,
+        "lon": 90.6731
+      },
+      {
+        "country": "India",
+        "lat": 26.5265,
+        "lon": 90.7323
+      },
+      {
+        "country": "India",
+        "lat": 26.5586,
+        "lon": 90.6115
+      }
+    ]
+  },
+  {
+    "name": "Golden Snub-nosed Monkey",
+    "country": "China",
+    "lat": 33,
+    "lon": 108,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinopithecus_roxellana.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Temperate montane forests",
+    "fun_fact": "Lives at highest altitude of any primate except humans, up to 4000m",
+    "occurrences": []
+  },
+  {
+    "name": "Grauer's Gorilla",
+    "country": "Democratic Republic of Congo",
+    "lat": -2.284,
+    "lon": 28.86,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_beringei_graueri.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Montane and lowland forests",
+    "fun_fact": "World's largest primate, population declined 80% since 1990s due to civil unrest",
+    "occurrences": []
+  },
+  {
+    "name": "Gray Seal",
+    "country": "United Kingdom",
+    "lat": 54,
+    "lon": -3,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus_grypus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky coasts, sandy beaches",
+    "fun_fact": "Excellent divers reaching depths of 300m, pups shed white coat after 3 weeks",
+    "occurrences": [
+      {
+        "country": "Canada",
+        "lat": 46,
+        "lon": -63
+      },
+      {
+        "country": "Norway",
+        "lat": 60.472,
+        "lon": 8.4689
+      }
+    ]
+  },
+  {
+    "name": "Gray Snub-nosed Monkey",
+    "country": "China",
+    "lat": 31,
+    "lon": 108,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinopithecus_brelichi.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Subtropical broadleaf forests",
+    "fun_fact": "Rarest snub-nosed monkey with only about 750 individuals remaining",
+    "occurrences": []
+  },
+  {
+    "name": "Great Indian Bustard",
+    "country": "India",
+    "lat": 26.9157,
+    "lon": 70.9083,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardeotis_nigriceps.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Arid grasslands, scrub",
+    "fun_fact": "Fewer than 200 remain, state bird of Rajasthan",
+    "occurrences": []
+  },
+  {
+    "name": "Greater One-Horned Rhinoceros",
+    "country": "India",
+    "lat": 26.2006,
+    "lon": 92.9376,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoceros_unicornis.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Grasslands, riverine forests, swamps",
+    "fun_fact": "Largest of Asian rhinos with armor-like skin, excellent swimmer",
+    "occurrences": [
+      {
+        "country": "Nepal",
+        "lat": 28.3949,
+        "lon": 84.124
+      }
+    ]
+  },
+  {
+    "name": "Green Sawfish",
+    "country": "Australia",
+    "lat": -20,
+    "lon": 118,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pristis_zijsron.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical inshore waters",
+    "fun_fact": "Largest sawfish species exceeding 7 m",
+    "occurrences": []
+  },
+  {
+    "name": "Green Turtle",
+    "country": "Costa Rica",
+    "lat": 9.7489,
+    "lon": -83.7534,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chelonia_mydas.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal waters, seagrass beds, coral reefs",
+    "fun_fact": "Can hold breath for up to 5 hours underwater and migrate thousands of miles",
+    "occurrences": [
+      {
+        "country": "Australia",
+        "lat": -25.2744,
+        "lon": 133.7751
+      },
+      {
+        "country": "Hawaii",
+        "lat": 21.0943,
+        "lon": -157.4983
+      },
+      {
+        "country": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253
+      }
+    ]
+  },
+  {
+    "name": "Grevy's Zebra",
+    "country": "Kenya",
+    "lat": 0.5,
+    "lon": 37.5,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_grevyi.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Semi-arid grasslands",
+    "fun_fact": "Largest zebra with narrow stripes and large ears",
+    "occurrences": [
+      {
+        "country": "Ethiopia",
+        "lat": 7.546,
+        "lon": 40.6347
+      }
+    ]
+  },
+  {
+    "name": "Guadalupe Fur Seal",
+    "country": "Mexico",
+    "lat": 29,
+    "lon": -118,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_townsendi.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky islands, kelp forests",
+    "fun_fact": "Recovered from near extinction with only 7 individuals in 1950s",
+    "occurrences": []
+  },
+  {
+    "name": "Hanuman Langur",
+    "country": "India",
+    "lat": 29.3826,
+    "lon": 78.9569,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Semnopithecus_entellus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Forests, scrublands, and towns across the Indian subcontinent from sea level to 4,000 m",
+    "fun_fact": "Considered sacred in Hinduism and named after the god Hanuman; troops are welcomed inside many Indian temples",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 22.1331,
+        "lon": 80.6366
+      },
+      {
+        "country": "India",
+        "lat": 16.8548,
+        "lon": 74.5582
+      },
+      {
+        "country": "India",
+        "lat": 21.7568,
+        "lon": 79.2567
+      },
+      {
+        "country": "India",
+        "lat": 34.1582,
+        "lon": 74.9122
+      },
+      {
+        "country": "India",
+        "lat": 22.5497,
+        "lon": 72.6252
+      },
+      {
+        "country": "India",
+        "lat": 24.8879,
+        "lon": 74.6451
+      },
+      {
+        "country": "India",
+        "lat": 21.1598,
+        "lon": 70.5941
+      },
+      {
+        "country": "Nepal",
+        "lat": 27.5465,
+        "lon": 84.3774
+      },
+      {
+        "country": "Nepal",
+        "lat": 28.4732,
+        "lon": 84.966
+      },
+      {
+        "country": "India",
+        "lat": 17.2789,
+        "lon": 82.4013
+      }
+    ]
+  },
+  {
+    "name": "Harbor Seal",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoca_vitulina.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Coastal waters, harbors, estuaries",
+    "fun_fact": "Most widely distributed seal, can sleep underwater by floating vertically",
+    "occurrences": [
+      {
+        "country": "Canada",
+        "lat": 56.1304,
+        "lon": -106.3468
+      },
+      {
+        "country": "Norway",
+        "lat": 60.472,
+        "lon": 8.4689
+      }
+    ]
+  },
+  {
+    "name": "Harp Seal",
+    "country": "Canada",
+    "lat": 50,
+    "lon": -60,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pagophilus_groenlandicus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic and subarctic waters, pack ice",
+    "fun_fact": "Pups are born with white fur, massive migrations covering 8000km annually",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 50
+      },
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      }
+    ]
+  },
+  {
+    "name": "Harpy Eagle",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Harpia_harpyja.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Tropical rainforest canopy",
+    "fun_fact": "Most powerful raptor in Americas with talons larger than grizzly bear claws",
+    "occurrences": [
+      {
+        "country": "Peru",
+        "lat": -9.19,
+        "lon": -75.0152
+      },
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      },
+      {
+        "country": "Ecuador",
+        "lat": -1.8312,
+        "lon": -78.1834
+      }
+    ]
+  },
+  {
+    "name": "Hawaiian Monk Seal",
+    "country": "United States",
+    "lat": 21.0943,
+    "lon": -157.4983,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Neomonachus_schauinslandi.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Sandy beaches, coral reefs",
+    "fun_fact": "Endemic to Hawaiian islands with about 1400 individuals remaining",
+    "occurrences": []
+  },
+  {
+    "name": "Hawksbill Sea Turtle",
+    "country": "Australia",
+    "lat": -16.283,
+    "lon": 145.7781,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Eretmochelys_imbricata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Coral reefs, coastal waters, lagoons",
+    "fun_fact": "Beautiful shell pattern, critical for coral reef health by eating sponges",
+    "occurrences": [
+      {
+        "country": "Seychelles",
+        "lat": -4.6796,
+        "lon": 55.4919
+      },
+      {
+        "country": "Costa Rica",
+        "lat": 9.7489,
+        "lon": -83.7534
+      },
+      {
+        "country": "Philippines",
+        "lat": 12.8797,
+        "lon": 121.774
+      }
+    ]
+  },
+  {
+    "name": "Hawksbill Turtle",
+    "country": "Australia",
+    "lat": -16.283,
+    "lon": 145.7781,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Eretmochelys_imbricata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Coral reefs, coastal areas, mangroves",
+    "fun_fact": "Can live over 100 years and migrate thousands of miles between feeding and nesting areas",
+    "occurrences": [
+      {
+        "country": "Seychelles",
+        "lat": -4.6796,
+        "lon": 55.4919
+      },
+      {
+        "country": "Costa Rica",
+        "lat": 9.7489,
+        "lon": -83.7534
+      },
+      {
+        "country": "Mexico",
+        "lat": 23.6345,
+        "lon": -102.5528
+      }
+    ]
+  },
+  {
+    "name": "Hector's Dolphin",
+    "country": "New Zealand",
+    "lat": -40.9006,
+    "lon": 174.886,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cephalorhynchus_hectori.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal waters less than 20m deep",
+    "fun_fact": "World's smallest marine dolphin with distinctive rounded dorsal fin",
+    "occurrences": []
+  },
+  {
+    "name": "Helmeted Hornbill",
+    "country": "Indonesia",
+    "lat": -0.7893,
+    "lon": 113.9213,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoplax_vigil.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Lowland rainforest",
+    "fun_fact": "Solid 'ivory' casque targeted by poachers",
+    "occurrences": [
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      }
+    ]
+  },
+  {
+    "name": "Hirola",
+    "country": "Kenya",
+    "lat": 1,
+    "lon": 40,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beatragus_hunteri.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Arid grasslands, shrublands",
+    "fun_fact": "'Four-eyed antelope' named for preorbital glands",
+    "occurrences": [
+      {
+        "country": "Somalia",
+        "lat": 3,
+        "lon": 42
+      }
+    ]
+  },
+  {
+    "name": "Hooded Seal",
+    "country": "Canada",
+    "lat": 60,
+    "lon": -65,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cystophora_cristata.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Pack ice, deep ocean waters",
+    "fun_fact": "Males have inflatable nasal balloon for display, deepest diving seal at 1000m+",
+    "occurrences": [
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      },
+      {
+        "country": "Norway",
+        "lat": 78.2232,
+        "lon": 15.6267
+      }
+    ]
+  },
+  {
+    "name": "Humboldt Penguin",
+    "country": "Peru",
+    "lat": -12.0464,
+    "lon": -77.0428,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spheniscus_humboldti.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Coastal islands, cold upwelling zones",
+    "fun_fact": "Relies on the Humboldt Current for cold, nutrient-rich waters",
+    "occurrences": [
+      {
+        "country": "Chile",
+        "lat": -27.3668,
+        "lon": -70.3322
+      }
+    ]
+  },
+  {
+    "name": "Humphead Wrasse",
+    "country": "Australia",
+    "lat": -16.283,
+    "lon": 145.7781,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheilinus_undulatus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coral reefs, reef slopes and channels",
+    "fun_fact": "Can grow over 6 feet long and live over 30 years, changing from female to male",
+    "occurrences": [
+      {
+        "country": "Maldives",
+        "lat": 3.2028,
+        "lon": 73.2207
+      },
+      {
+        "country": "Indonesia",
+        "lat": -0.7893,
+        "lon": 113.9213
+      },
+      {
+        "country": "Philippines",
+        "lat": 12.8797,
+        "lon": 121.774
+      }
+    ]
+  },
+  {
+    "name": "Indian Elephant",
+    "country": "India",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_indicus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Grasslands, tropical deciduous forests",
+    "fun_fact": "National heritage animal of India, distinguished by single finger-like projection on trunk",
+    "occurrences": [
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      },
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      }
+    ]
+  },
+  {
+    "name": "Indian Pangolin",
+    "country": "India",
+    "lat": 20.5937,
+    "lon": 78.9629,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manis_crassicaudata.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Dry forests, scrublands, grasslands",
+    "fun_fact": "Rolls into a tight ball when threatened",
+    "occurrences": [
+      {
+        "country": "Sri Lanka",
+        "lat": 7.8731,
+        "lon": 80.7718
+      }
+    ]
+  },
+  {
+    "name": "Indochinese Leopard",
+    "country": "Thailand",
+    "lat": 15.87,
+    "lon": 100.9925,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_pardus_delacouri.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical forests, grasslands",
+    "fun_fact": "Excellent climber that can carry prey twice its weight up a tree",
+    "occurrences": [
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      },
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      }
+    ]
+  },
+  {
+    "name": "Indus River Dolphin",
+    "country": "Pakistan",
+    "lat": 30.3753,
+    "lon": 69.3451,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Platanista_minor.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Indus river system",
+    "fun_fact": "Functionally blind and swims on its side, using echolocation to hunt",
+    "occurrences": []
+  },
+  {
+    "name": "Irrawaddy Dolphin",
+    "country": "Myanmar",
+    "lat": 21.9162,
+    "lon": 95.956,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Orcaella_brevirostris.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal waters, estuaries, rivers",
+    "fun_fact": "Has a bulbous forehead and can spit water to stun prey",
+    "occurrences": [
+      {
+        "country": "Cambodia",
+        "lat": 12.5657,
+        "lon": 104.991
+      },
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Indonesia",
+        "lat": -0.7893,
+        "lon": 113.9213
+      }
+    ]
+  },
+  {
+    "name": "Jaguarundi",
+    "country": "Mexico",
+    "lat": 23.6345,
+    "lon": -102.5528,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Herpailurus_yagouaroundi.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Forests, scrublands, grasslands",
+    "fun_fact": "Unusual cat with weasel-like appearance, active during day unlike most cats",
+    "occurrences": [
+      {
+        "country": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253
+      },
+      {
+        "country": "Argentina",
+        "lat": -38.4161,
+        "lon": -63.6167
+      }
+    ]
+  },
+  {
+    "name": "Javan Hawk-Eagle",
+    "country": "Indonesia",
+    "lat": -7.25,
+    "lon": 112.75,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nisaetus_bartelsi.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Montane forests of Java",
+    "fun_fact": "Symbol of Indonesia's national emblem, Garuda",
+    "occurrences": []
+  },
+  {
+    "name": "Javan Rhino",
+    "country": "Indonesia",
+    "lat": -6.754,
+    "lon": 105.3962,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoceros_sondaicus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dense tropical rainforest",
+    "fun_fact": "Only 60-70 individuals remain, all in Ujung Kulon National Park in Java",
+    "occurrences": []
+  },
+  {
+    "name": "Jerdon's Courser",
+    "country": "India",
+    "lat": 15.8281,
+    "lon": 78.0373,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoptilus_bitorquatus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Scrub forest on sandy soil",
+    "fun_fact": "Nocturnal and elusive; rediscovered in 1986 after long gap",
+    "occurrences": []
+  },
+  {
+    "name": "Juan FernÃ¡ndez Fur Seal",
+    "country": "Chile",
+    "lat": -33.6148,
+    "lon": -78.8311,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_philippii.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Rocky volcanic islands",
+    "fun_fact": "Endemic to Juan FernÃ¡ndez Islands, population recovering from historical hunting",
+    "occurrences": []
+  },
+  {
+    "name": "Kea",
+    "country": "New Zealand",
+    "lat": -43.5321,
+    "lon": 172.6362,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nestor_notabilis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Alpine regions, mountainous areas",
+    "fun_fact": "World's only alpine parrot, extremely intelligent and playful, can solve complex puzzles",
+    "occurrences": []
+  },
+  {
+    "name": "Kemp's Ridley Sea Turtle",
+    "country": "Mexico",
+    "lat": 23.6345,
+    "lon": -97.8307,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lepidochelys_kempii.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Nearshore waters, sandy beaches",
+    "fun_fact": "World's most endangered sea turtle, synchronized mass nesting called 'arribada'",
+    "occurrences": [
+      {
+        "country": "United States",
+        "lat": 29.7604,
+        "lon": -95.3698
+      }
+    ]
+  },
+  {
+    "name": "Kiwi",
+    "country": "New Zealand",
+    "lat": -40.9006,
+    "lon": 174.886,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Apteryx_mantelli.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Forests, scrublands, grasslands",
+    "fun_fact": "Flightless bird with nostrils at tip of beak, lays eggs 20% of female's body weight",
+    "occurrences": []
+  },
+  {
+    "name": "Kloss's Gibbon",
+    "country": "Indonesia",
+    "lat": -1,
+    "lon": 100,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_klossii.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary rainforest",
+    "fun_fact": "Endemic to Mentawai Islands, only gibbon where both sexes are black",
+    "occurrences": []
+  },
+  {
+    "name": "Komodo Dragon",
+    "country": "Indonesia",
+    "lat": -8.65,
+    "lon": 119.4167,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus_komodoensis.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Tropical savanna, grasslands",
+    "fun_fact": "World's largest lizard, venomous bite, can run 20 km/h and swim between islands",
+    "occurrences": []
+  },
+  {
+    "name": "Lar Gibbon",
+    "country": "Thailand",
+    "lat": 15.87,
+    "lon": 100.9925,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_lar.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical rainforest canopy",
+    "fun_fact": "Sings complex duets with mate, can swing through trees at 55 km/h",
+    "occurrences": [
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      },
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      }
+    ]
+  },
+  {
+    "name": "Leopard Seal",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrurga_leptonyx.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Antarctic pack ice, subantarctic islands",
+    "fun_fact": "Second largest seal in Antarctica, can swim 40 km/h and has reptile-like head",
+    "occurrences": []
+  },
+  {
+    "name": "Lion-tailed Macaque",
+    "country": "India",
+    "lat": 13.5604,
+    "lon": 75.0964,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion-tailed_macaque_(Macaca_silenus).jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Tropical rainforests of the Western Ghats — Kerala, Tamil Nadu and Karnataka",
+    "fun_fact": "Fewer than 4,000 survive in the wild; its silver-white mane inspired its name but it is more bear than lion in temperament",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 10.2491,
+        "lon": 76.9289
+      },
+      {
+        "country": "India",
+        "lat": 10.2971,
+        "lon": 76.9796
+      },
+      {
+        "country": "India",
+        "lat": 10.3607,
+        "lon": 76.8592
+      },
+      {
+        "country": "India",
+        "lat": 10.2599,
+        "lon": 76.9453
+      },
+      {
+        "country": "India",
+        "lat": 10.3426,
+        "lon": 76.951
+      },
+      {
+        "country": "India",
+        "lat": 10.3573,
+        "lon": 76.9064
+      },
+      {
+        "country": "India",
+        "lat": 13.4775,
+        "lon": 75.0974
+      },
+      {
+        "country": "India",
+        "lat": 13.4722,
+        "lon": 75.1042
+      },
+      {
+        "country": "India",
+        "lat": 10.2208,
+        "lon": 76.9185
+      },
+      {
+        "country": "India",
+        "lat": 10.3502,
+        "lon": 76.8697
+      }
+    ]
+  },
+  {
+    "name": "Loggerhead Sea Turtle",
+    "country": "United States",
+    "lat": 28.5383,
+    "lon": -81.3792,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caretta_caretta.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Open ocean, coastal bays, estuaries",
+    "fun_fact": "Powerful jaws can crush shellfish, navigate using magnetic fields",
+    "occurrences": [
+      {
+        "country": "Greece",
+        "lat": 39.0742,
+        "lon": 21.8243
+      },
+      {
+        "country": "Turkey",
+        "lat": 38.9637,
+        "lon": 35.2433
+      },
+      {
+        "country": "Japan",
+        "lat": 36.2048,
+        "lon": 138.2529
+      }
+    ]
+  },
+  {
+    "name": "Lowland Tapir",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapirus_terrestris.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Rainforests, savannas, wetlands",
+    "fun_fact": "Important seed disperser for many tropical trees",
+    "occurrences": [
+      {
+        "country": "Bolivia",
+        "lat": -16.2902,
+        "lon": -63.5887
+      }
+    ]
+  },
+  {
+    "name": "Malayan Tapir",
+    "country": "Malaysia",
+    "lat": 4.2105,
+    "lon": 101.9758,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapirus_indicus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Lowland tropical rainforest",
+    "fun_fact": "Distinctive black-and-white coloration provides camouflage at night",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      }
+    ]
+  },
+  {
+    "name": "Malayan Tiger",
+    "country": "Malaysia",
+    "lat": 4.2105,
+    "lon": 101.9758,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_tigris_jacksoni.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest",
+    "fun_fact": "National animal of Malaysia with <150 left in the wild",
+    "occurrences": []
+  },
+  {
+    "name": "Manatee",
+    "country": "United States",
+    "lat": 28.5383,
+    "lon": -81.3792,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichechus_manatus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Shallow coastal waters, rivers, springs",
+    "fun_fact": "Gentle giants that can weigh 1200 pounds and live up to 65 years",
+    "occurrences": [
+      {
+        "country": "Belize",
+        "lat": 17.1899,
+        "lon": -88.4976
+      },
+      {
+        "country": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253
+      }
+    ]
+  },
+  {
+    "name": "Mandrill",
+    "country": "Gabon",
+    "lat": -0.8037,
+    "lon": 11.6094,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandrillus_sphinx.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Dense tropical rainforest",
+    "fun_fact": "World's largest monkey with most colorful face, lives in largest gatherings of primates",
+    "occurrences": [
+      {
+        "country": "Republic of Congo",
+        "lat": -0.228,
+        "lon": 15.8277
+      },
+      {
+        "country": "Cameroon",
+        "lat": 7.3697,
+        "lon": 12.3547
+      }
+    ]
+  },
+  {
+    "name": "Maned Wolf",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysocyon_brachyurus.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Grasslands, scrub prairies",
+    "fun_fact": "Tallest wild canid with distinctive skunk-like odor, omnivorous diet includes fruits",
+    "occurrences": [
+      {
+        "country": "Argentina",
+        "lat": -38.4161,
+        "lon": -63.6167
+      },
+      {
+        "country": "Paraguay",
+        "lat": -23.4425,
+        "lon": -58.4438
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Finch",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Camarhynchus_heliobates.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Mangrove swamps",
+    "fun_fact": "Rarest Darwin's finch with fewer than 100 individuals, uses tools to extract insects",
+    "occurrences": []
+  },
+  {
+    "name": "Marine Iguana",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amblyrhynchus_cristatus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Rocky shores, lava rocks, coastal waters",
+    "fun_fact": "Only marine lizard in world, can dive 30 feet underwater to graze on algae",
+    "occurrences": []
+  },
+  {
+    "name": "Markhor",
+    "country": "Pakistan",
+    "lat": 30.3753,
+    "lon": 69.3451,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Capra_falconeri.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Rocky mountains, scrub forests",
+    "fun_fact": "National animal of Pakistan with magnificent twisted horns, excellent climber",
+    "occurrences": [
+      {
+        "country": "Afghanistan",
+        "lat": 33.9391,
+        "lon": 67.71
+      },
+      {
+        "country": "India",
+        "lat": 20.5937,
+        "lon": 78.9629
+      }
+    ]
+  },
+  {
+    "name": "Mediterranean Monk Seal",
+    "country": "Greece",
+    "lat": 37.9755,
+    "lon": 23.7348,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monachus_monachus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal caves, rocky shores",
+    "fun_fact": "One of world's rarest seals with fewer than 700 individuals",
+    "occurrences": [
+      {
+        "country": "Turkey",
+        "lat": 38.9637,
+        "lon": 35.2433
+      },
+      {
+        "country": "Cyprus",
+        "lat": 35.1264,
+        "lon": 33.4299
+      }
+    ]
+  },
+  {
+    "name": "Mekong Giant Catfish",
+    "country": "Thailand",
+    "lat": 16,
+    "lon": 105,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pangasianodon_gigas.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Large rivers of Mekong basin",
+    "fun_fact": "One of the world's largest freshwater fish exceeding 300 kg",
+    "occurrences": [
+      {
+        "country": "Laos",
+        "lat": 18,
+        "lon": 102
+      }
+    ]
+  },
+  {
+    "name": "Miss Waldron's Red Colobus",
+    "country": "Ghana",
+    "lat": 7.9465,
+    "lon": -1.0232,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_badius_waldronae.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Primary rainforest",
+    "fun_fact": "Possibly extinct, last confirmed sighting in 1970s, intensive search efforts ongoing",
+    "occurrences": [
+      {
+        "country": "Ivory Coast",
+        "lat": 7.5399,
+        "lon": -5.5471
+      }
+    ]
+  },
+  {
+    "name": "Moloch Gibbon",
+    "country": "Indonesia",
+    "lat": -7.25,
+    "lon": 112.75,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_moloch.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary and secondary forests",
+    "fun_fact": "Endemic to Java, silvery-gray coloration, highly territorial",
+    "occurrences": []
+  },
+  {
+    "name": "Monarch Butterfly",
+    "country": "Mexico",
+    "lat": 19.1738,
+    "lon": -100.1414,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Danaus_plexippus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Milkweed habitats, overwintering forests",
+    "fun_fact": "Migrates up to 3000 miles annually across North America in multi-generational journey",
+    "occurrences": [
+      {
+        "country": "United States",
+        "lat": 39.8283,
+        "lon": -98.5795
+      },
+      {
+        "country": "Canada",
+        "lat": 56.1304,
+        "lon": -106.3468
+      }
+    ]
+  },
+  {
+    "name": "Mountain Bongo",
+    "country": "Kenya",
+    "lat": 0.4,
+    "lon": 36.7,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tragelaphus_eurycerus_isaaci.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Montane forests",
+    "fun_fact": "Critically low numbers persist in Aberdares and Mount Kenya",
+    "occurrences": []
+  },
+  {
+    "name": "Mountain Gorilla",
+    "country": "Uganda",
+    "lat": 1.3733,
+    "lon": 32.2903,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_beringei_beringei.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Montane and bamboo forests",
+    "fun_fact": "Only about 1000 individuals remain, living in cloud forests at high altitudes",
+    "occurrences": [
+      {
+        "country": "Rwanda",
+        "lat": -1.9403,
+        "lon": 29.8739
+      },
+      {
+        "country": "Democratic Republic of Congo",
+        "lat": -4.0383,
+        "lon": 21.7587
+      }
+    ]
+  },
+  {
+    "name": "Mountain Tapir",
+    "country": "Ecuador",
+    "lat": -1.8312,
+    "lon": -78.1834,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapirus_pinchaque.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Cloud forests, pÃ¡ramo",
+    "fun_fact": "Smallest tapir species, lives at high elevations",
+    "occurrences": [
+      {
+        "country": "Colombia",
+        "lat": 4.711,
+        "lon": -74.0721
+      }
+    ]
+  },
+  {
+    "name": "Musk Ox",
+    "country": "Canada",
+    "lat": 74.0059,
+    "lon": -105.0067,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ovibos_moschatus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic tundra, grasslands",
+    "fun_fact": "Survived ice age, forms defensive circles against predators, wool is 8x warmer than sheep's",
+    "occurrences": [
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      },
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      }
+    ]
+  },
+  {
+    "name": "Myanmar Roofed Turtle",
+    "country": "Myanmar",
+    "lat": 21.9162,
+    "lon": 95.956,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagur_trivittata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Upper Chindwin River",
+    "fun_fact": "Saved from extinction by head-start programs",
+    "occurrences": []
+  },
+  {
+    "name": "Narwhal",
+    "country": "Canada",
+    "lat": 74.0059,
+    "lon": -105.0067,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monodon_monoceros.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic waters with heavy pack ice",
+    "fun_fact": "Male's tusk can grow up to 3 meters long and is actually an enlarged tooth",
+    "occurrences": [
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      },
+      {
+        "country": "Norway",
+        "lat": 78.2232,
+        "lon": 15.6267
+      }
+    ]
+  },
+  {
+    "name": "New Zealand Sea Lion",
+    "country": "New Zealand",
+    "lat": -46,
+    "lon": 166,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phocarctos_hookeri.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Subantarctic islands, coastal areas",
+    "fun_fact": "Rarest sea lion species, females can forage up to 175km from breeding sites",
+    "occurrences": []
+  },
+  {
+    "name": "North Atlantic Right Whale",
+    "country": "United States",
+    "lat": 41.2033,
+    "lon": -77.1945,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Eubalaena_glacialis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal and continental shelf waters",
+    "fun_fact": "Fewer than 400 individuals remain, called 'right' whales because they were 'right' ones to hunt",
+    "occurrences": [
+      {
+        "country": "Canada",
+        "lat": 56.1304,
+        "lon": -106.3468
+      }
+    ]
+  },
+  {
+    "name": "North Chinese Leopard",
+    "country": "China",
+    "lat": 39.9042,
+    "lon": 116.4074,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_pardus_japonensis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Temperate forests, rocky mountains",
+    "fun_fact": "Adapted to harsh winters, population severely fragmented",
+    "occurrences": []
+  },
+  {
+    "name": "Northern Elephant Seal",
+    "country": "United States",
+    "lat": 34.0522,
+    "lon": -119.2437,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirounga_angustirostris.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Sandy beaches, open ocean",
+    "fun_fact": "Remarkable recovery from 20 individuals in 1890s to over 200,000 today",
+    "occurrences": [
+      {
+        "country": "Mexico",
+        "lat": 31,
+        "lon": -116
+      }
+    ]
+  },
+  {
+    "name": "Northern Fur Seal",
+    "country": "United States",
+    "lat": 57,
+    "lon": -170,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Callorhinus_ursinus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Open ocean, rocky islands for breeding",
+    "fun_fact": "Spends 300+ days at sea annually, dense fur with 350,000 hairs per square inch",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 55,
+        "lon": 160
+      },
+      {
+        "country": "Japan",
+        "lat": 43.0642,
+        "lon": 141.3469
+      }
+    ]
+  },
+  {
+    "name": "Northern White-cheeked Gibbon",
+    "country": "Vietnam",
+    "lat": 21.0285,
+    "lon": 105.8542,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nomascus_leucogenys.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Primary and secondary tropical forests",
+    "fun_fact": "Males are black with white cheeks, females are golden-buff",
+    "occurrences": [
+      {
+        "country": "Laos",
+        "lat": 19.8563,
+        "lon": 102.4955
+      }
+    ]
+  },
+  {
+    "name": "Olive Ridley Sea Turtle",
+    "country": "Costa Rica",
+    "lat": 9.7489,
+    "lon": -83.7534,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lepidochelys_olivacea.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Warm ocean waters, nesting beaches",
+    "fun_fact": "Most abundant sea turtle but still vulnerable, mass synchronized nesting",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 20.5937,
+        "lon": 78.9629
+      },
+      {
+        "country": "Mexico",
+        "lat": 23.6345,
+        "lon": -102.5528
+      },
+      {
+        "country": "Australia",
+        "lat": -25.2744,
+        "lon": 133.7751
+      }
+    ]
+  },
+  {
+    "name": "Oncilla",
+    "country": "Brazil",
+    "lat": -14.235,
+    "lon": -51.9253,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leopardus_tigrinus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Cloud forests, paramo, montane forests",
+    "fun_fact": "Smallest spotted cat in Americas, excellent climber that hunts in trees",
+    "occurrences": [
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      },
+      {
+        "country": "Ecuador",
+        "lat": -1.8312,
+        "lon": -78.1834
+      }
+    ]
+  },
+  {
+    "name": "Pallas Cat",
+    "country": "Mongolia",
+    "lat": 46.8625,
+    "lon": 103.8467,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otocolobus_manul.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Grasslands, montane steppes",
+    "fun_fact": "Fluffiest wild cat with round pupils instead of slits, expressive facial features",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 35.8617,
+        "lon": 104.1954
+      },
+      {
+        "country": "Russia",
+        "lat": 61.524,
+        "lon": 105.3188
+      }
+    ]
+  },
+  {
+    "name": "Panamanian Golden Frog",
+    "country": "Panama",
+    "lat": 8.9833,
+    "lon": -79.5167,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atelopus_zeteki.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Mountain streams, cloud forests",
+    "fun_fact": "Communicates with visual 'hand-waving' signals",
+    "occurrences": []
+  },
+  {
+    "name": "Pennant's Red Colobus",
+    "country": "Equatorial Guinea",
+    "lat": 1.6508,
+    "lon": 10.2679,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_pennantii.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Primary and secondary rainforest",
+    "fun_fact": "Endemic to Bioko Island, population declining due to hunting pressure",
+    "occurrences": []
+  },
+  {
+    "name": "Persian Leopard",
+    "country": "Iran",
+    "lat": 32.4279,
+    "lon": 53.688,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_pardus_saxicolor.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Forests, scrublands, rocky areas",
+    "fun_fact": "Largest leopard subspecies, can leap 6 meters horizontally",
+    "occurrences": [
+      {
+        "country": "Armenia",
+        "lat": 40.0691,
+        "lon": 45.0382
+      },
+      {
+        "country": "Azerbaijan",
+        "lat": 40.1431,
+        "lon": 47.5769
+      }
+    ]
+  },
+  {
+    "name": "Philippine Crocodile",
+    "country": "Philippines",
+    "lat": 12.8797,
+    "lon": 121.774,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus_mindorensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Rivers, marshes, ponds",
+    "fun_fact": "One of the rarest crocodilians, small-bodied compared to saltwater crocodile",
+    "occurrences": []
+  },
+  {
+    "name": "Pileated Gibbon",
+    "country": "Cambodia",
+    "lat": 12.5657,
+    "lon": 104.991,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_pileatus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary evergreen and semi-evergreen forests",
+    "fun_fact": "Males are black, females are buff-colored, territorial calls at dawn",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      }
+    ]
+  },
+  {
+    "name": "Ploughshare Tortoise",
+    "country": "Madagascar",
+    "lat": -16,
+    "lon": 45.3,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Astrochelys_yniphora.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dry deciduous forests near Baly Bay",
+    "fun_fact": "Extremely rare; targeted by illegal pet trade",
+    "occurrences": []
+  },
+  {
+    "name": "Preuss's Red Colobus",
+    "country": "Cameroon",
+    "lat": 7.3697,
+    "lon": 12.3547,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_preussi.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Montane forests",
+    "fun_fact": "Lives in montane forests above 1000m elevation, fewer than 5000 remain",
+    "occurrences": [
+      {
+        "country": "Equatorial Guinea",
+        "lat": 1.6508,
+        "lon": 10.2679
+      }
+    ]
+  },
+  {
+    "name": "Przewalski's Horse",
+    "country": "Mongolia",
+    "lat": 46.8625,
+    "lon": 103.8467,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_przewalskii.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Grasslands, semi-deserts",
+    "fun_fact": "Last truly wild horse species, extinct in wild but successfully reintroduced",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 35.8617,
+        "lon": 104.1954
+      }
+    ]
+  },
+  {
+    "name": "Pygmy Hippopotamus",
+    "country": "Liberia",
+    "lat": 6.4281,
+    "lon": -9.4295,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Choeropsis_liberiensis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Swamps, rivers in lowland forests",
+    "fun_fact": "Solitary and nocturnal; much smaller than the common hippo",
+    "occurrences": [
+      {
+        "country": "Sierra Leone",
+        "lat": 8.4606,
+        "lon": -11.7799
+      }
+    ]
+  },
+  {
+    "name": "Radiated Tortoise",
+    "country": "Madagascar",
+    "lat": -23,
+    "lon": 46.3,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Astrochelys_radiata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dry spiny forests",
+    "fun_fact": "Star-patterned shell with high dome",
+    "occurrences": []
+  },
+  {
+    "name": "Red Panda",
+    "country": "Nepal",
+    "lat": 28.3949,
+    "lon": 84.124,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ailurus_fulgens.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Temperate forests with bamboo understory",
+    "fun_fact": "Original panda species, named 50 years before giant panda, sleeps 17 hours per day",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 35.8617,
+        "lon": 104.1954
+      },
+      {
+        "country": "India",
+        "lat": 20.5937,
+        "lon": 78.9629
+      },
+      {
+        "country": "Bhutan",
+        "lat": 27.5142,
+        "lon": 90.4336
+      }
+    ]
+  },
+  {
+    "name": "Red Wolf",
+    "country": "United States",
+    "lat": 35.5,
+    "lon": -76,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Canis_rufus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Coastal prairies, forests, wetlands",
+    "fun_fact": "Reintroduced to North Carolina; one of the most endangered canids",
+    "occurrences": []
+  },
+  {
+    "name": "Rhesus Macaque",
+    "country": "India",
+    "lat": 29.3532,
+    "lon": 79.5252,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca_mulatta_in_Kibber,_Spiti.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Forests, grasslands, scrublands, and urban areas across India",
+    "fun_fact": "The most widely studied non-human primate — early space travellers and key to developing polio vaccines",
+    "occurrences": [
+      {
+        "country": "Nepal",
+        "lat": 27.7149,
+        "lon": 85.2903
+      },
+      {
+        "country": "USA",
+        "lat": 32.4591,
+        "lon": -80.5289
+      },
+      {
+        "country": "India",
+        "lat": 22.125,
+        "lon": 88.8306
+      },
+      {
+        "country": "India",
+        "lat": 30.7458,
+        "lon": 76.8274
+      },
+      {
+        "country": "USA",
+        "lat": 29.615,
+        "lon": -82.2242
+      },
+      {
+        "country": "USA",
+        "lat": 28.9443,
+        "lon": -81.8226
+      },
+      {
+        "country": "India",
+        "lat": 22.4694,
+        "lon": 81.7813
+      },
+      {
+        "country": "Nepal",
+        "lat": 27.7149,
+        "lon": 85.2904
+      },
+      {
+        "country": "USA",
+        "lat": 29.2161,
+        "lon": -82.0471
+      },
+      {
+        "country": "India",
+        "lat": 29.581,
+        "lon": 79.6466
+      }
+    ]
+  },
+  {
+    "name": "Ribbon Seal",
+    "country": "Russia",
+    "lat": 60,
+    "lon": 170,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Histriophoca_fasciata.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Pack ice in Bering and Okhotsk Seas",
+    "fun_fact": "Distinctive white ribbons on dark fur, most pelagic of northern seals",
+    "occurrences": [
+      {
+        "country": "United States",
+        "lat": 64.0685,
+        "lon": -152.2782
+      }
+    ]
+  },
+  {
+    "name": "Ringed Seal",
+    "country": "Canada",
+    "lat": 74.0059,
+    "lon": -105.0067,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pusa_hispida.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Arctic pack ice, ice-covered seas",
+    "fun_fact": "Smallest Arctic seal, creates breathing holes in ice using claws",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      },
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      },
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      }
+    ]
+  },
+  {
+    "name": "River Terrapin",
+    "country": "Bangladesh",
+    "lat": 22.35,
+    "lon": 89.1833,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagur_baska.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Estuaries, mangroves, lower rivers",
+    "fun_fact": "Males turn black during breeding season",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 22,
+        "lon": 88
+      }
+    ]
+  },
+  {
+    "name": "Roloway Monkey",
+    "country": "Ghana",
+    "lat": 7.9465,
+    "lon": -1.0232,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cercopithecus_diana_roloway.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary rainforest canopy",
+    "fun_fact": "Distinctive white beard, one of Africa's most endangered primates",
+    "occurrences": [
+      {
+        "country": "Ivory Coast",
+        "lat": 7.5399,
+        "lon": -5.5471
+      }
+    ]
+  },
+  {
+    "name": "Ross Seal",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ommatophoca_rossii.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Dense Antarctic pack ice",
+    "fun_fact": "Least known Antarctic seal, distinctive large eyes and inflatable neck",
+    "occurrences": []
+  },
+  {
+    "name": "Saiga Antelope",
+    "country": "Kazakhstan",
+    "lat": 48.0196,
+    "lon": 66.9237,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saiga_tatarica.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Grasslands, semi-deserts",
+    "fun_fact": "Distinctive inflated nose structure helps filter dust and regulate temperature",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 61.524,
+        "lon": 105.3188
+      },
+      {
+        "country": "Mongolia",
+        "lat": 46.8625,
+        "lon": 103.8467
+      }
+    ]
+  },
+  {
+    "name": "Sand Cat",
+    "country": "United Arab Emirates",
+    "lat": 23.4241,
+    "lon": 53.8478,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Felis_margarita.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Sandy and rocky deserts",
+    "fun_fact": "Can survive without water, getting moisture from prey, thick fur protects from hot sand",
+    "occurrences": [
+      {
+        "country": "Morocco",
+        "lat": 31.7917,
+        "lon": -7.0926
+      },
+      {
+        "country": "Iran",
+        "lat": 32.4279,
+        "lon": 53.688
+      }
+    ]
+  },
+  {
+    "name": "Saola",
+    "country": "Vietnam",
+    "lat": 17.4739,
+    "lon": 106.3131,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pseudoryx_nghetinhensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Evergreen forests with little or no dry season",
+    "fun_fact": "Discovered only in 1992, called 'Asian unicorn' due to its rarity and elusive nature",
+    "occurrences": [
+      {
+        "country": "Laos",
+        "lat": 17.9667,
+        "lon": 102.6
+      }
+    ]
+  },
+  {
+    "name": "Sea Lions (GalÃ¡pagos)",
+    "country": "Ecuador",
+    "lat": -0.9538,
+    "lon": -90.9656,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zalophus_wollebaeki.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Rocky shores, sandy beaches, shallow coastal waters",
+    "fun_fact": "Endemic to GalÃ¡pagos, population severely affected by El NiÃ±o climate events",
+    "occurrences": []
+  },
+  {
+    "name": "Secretarybird",
+    "country": "South Africa",
+    "lat": -29,
+    "lon": 24,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagittarius_serpentarius.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Savannas, grasslands",
+    "fun_fact": "Hunts snakes with powerful kicks",
+    "occurrences": [
+      {
+        "country": "Botswana",
+        "lat": -22.3285,
+        "lon": 24.6849
+      }
+    ]
+  },
+  {
+    "name": "Sei Whale",
+    "country": "Japan",
+    "lat": 36.2048,
+    "lon": 138.2529,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaenoptera_borealis.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Deep offshore waters worldwide",
+    "fun_fact": "Third largest whale species, can dive to depths of 300 meters",
+    "occurrences": [
+      {
+        "country": "Norway",
+        "lat": 60.472,
+        "lon": 8.4689
+      },
+      {
+        "country": "Iceland",
+        "lat": 64.9631,
+        "lon": -19.0208
+      },
+      {
+        "country": "Chile",
+        "lat": -35.6751,
+        "lon": -71.543
+      }
+    ]
+  },
+  {
+    "name": "Serval",
+    "country": "Kenya",
+    "lat": -0.0236,
+    "lon": 37.9062,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptailurus_serval.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Savannas, wetlands, grasslands",
+    "fun_fact": "Has longest legs relative to body size of any cat, can jump 9 feet high",
+    "occurrences": [
+      {
+        "country": "Tanzania",
+        "lat": -6.369,
+        "lon": 34.8888
+      },
+      {
+        "country": "South Africa",
+        "lat": -30.5595,
+        "lon": 22.9375
+      }
+    ]
+  },
+  {
+    "name": "Shoebill",
+    "country": "Uganda",
+    "lat": 1.3733,
+    "lon": 32.2903,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaeniceps_rex.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Swamps, marshes",
+    "fun_fact": "Massive shoe-shaped bill helps catch lungfish",
+    "occurrences": [
+      {
+        "country": "South Sudan",
+        "lat": 6.877,
+        "lon": 31.307
+      }
+    ]
+  },
+  {
+    "name": "Siamang",
+    "country": "Malaysia",
+    "lat": 4.2105,
+    "lon": 101.9758,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Symphalangus_syndactylus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary rainforest canopy",
+    "fun_fact": "Largest gibbon species with distinctive throat sac for loud calls heard 2km away",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      },
+      {
+        "country": "Indonesia",
+        "lat": -0.7893,
+        "lon": 113.9213
+      }
+    ]
+  },
+  {
+    "name": "Siamese Crocodile",
+    "country": "Cambodia",
+    "lat": 12.5657,
+    "lon": 104.991,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus_siamensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Slow-moving rivers, swamps",
+    "fun_fact": "Thought extinct in wild until rediscovered in 2000s",
+    "occurrences": [
+      {
+        "country": "Thailand",
+        "lat": 15.87,
+        "lon": 100.9925
+      }
+    ]
+  },
+  {
+    "name": "Smalltooth Sawfish",
+    "country": "United States",
+    "lat": 25.7617,
+    "lon": -80.1918,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pristis_pectinata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Shallow coastal waters, estuaries",
+    "fun_fact": "Rostrum used to detect and stun prey via electroreception",
+    "occurrences": []
+  },
+  {
+    "name": "Snowy Owl",
+    "country": "Canada",
+    "lat": 60,
+    "lon": -95,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_scandiacus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Arctic tundra, open fields",
+    "fun_fact": "Males are almost pure white, can rotate head 270 degrees, migrate south in winter",
+    "occurrences": [
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      },
+      {
+        "country": "Russia",
+        "lat": 70,
+        "lon": 100
+      },
+      {
+        "country": "Greenland",
+        "lat": 71.7069,
+        "lon": -42.6043
+      }
+    ]
+  },
+  {
+    "name": "Sociable Lapwing",
+    "country": "Kazakhstan",
+    "lat": 50,
+    "lon": 67,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vanellus_gregarius.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Steppe grasslands",
+    "fun_fact": "Long-distance migrant threatened by land-use change",
+    "occurrences": [
+      {
+        "country": "Turkey",
+        "lat": 39,
+        "lon": 35
+      }
+    ]
+  },
+  {
+    "name": "South American Fur Seal",
+    "country": "Uruguay",
+    "lat": -34.9011,
+    "lon": -56.1645,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_australis.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky coasts, offshore islands",
+    "fun_fact": "Most abundant fur seal in Southern Hemisphere, males are 4x larger than females",
+    "occurrences": [
+      {
+        "country": "Argentina",
+        "lat": -38.4161,
+        "lon": -63.6167
+      },
+      {
+        "country": "Chile",
+        "lat": -35.6751,
+        "lon": -71.543
+      }
+    ]
+  },
+  {
+    "name": "South American Sea Lion",
+    "country": "Chile",
+    "lat": -35.6751,
+    "lon": -71.543,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otaria_byronia.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky and sandy coasts",
+    "fun_fact": "Males have distinctive sagittal crest on head, excellent divers to 175m depth",
+    "occurrences": [
+      {
+        "country": "Argentina",
+        "lat": -38.4161,
+        "lon": -63.6167
+      },
+      {
+        "country": "Peru",
+        "lat": -9.19,
+        "lon": -75.0152
+      }
+    ]
+  },
+  {
+    "name": "Southern Elephant Seal",
+    "country": "Argentina",
+    "lat": -54.8019,
+    "lon": -68.3,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirounga_leonina.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Subantarctic beaches, open ocean",
+    "fun_fact": "Largest seal species, males can weigh 4000kg and dive over 2000m deep",
+    "occurrences": [
+      {
+        "country": "South Africa",
+        "lat": -46,
+        "lon": 37
+      },
+      {
+        "country": "Chile",
+        "lat": -54,
+        "lon": -70
+      }
+    ]
+  },
+  {
+    "name": "Southern White-cheeked Gibbon",
+    "country": "Vietnam",
+    "lat": 14.0583,
+    "lon": 108.2772,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nomascus_siki.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary tropical rainforest",
+    "fun_fact": "Distinguished by genetic and vocal differences from northern subspecies",
+    "occurrences": [
+      {
+        "country": "Laos",
+        "lat": 17.9667,
+        "lon": 102.6
+      }
+    ]
+  },
+  {
+    "name": "Spectacled Bear",
+    "country": "Peru",
+    "lat": -9.19,
+    "lon": -75.0152,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tremarctos_ornatus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Cloud forests, high altitude grasslands",
+    "fun_fact": "Only bear species native to South America, builds tree nests like orangutans",
+    "occurrences": [
+      {
+        "country": "Colombia",
+        "lat": 4.5709,
+        "lon": -74.2973
+      },
+      {
+        "country": "Ecuador",
+        "lat": -1.8312,
+        "lon": -78.1834
+      },
+      {
+        "country": "Bolivia",
+        "lat": -16.2902,
+        "lon": -63.5887
+      }
+    ]
+  },
+  {
+    "name": "Spoon-billed Sandpiper",
+    "country": "Russia",
+    "lat": 62,
+    "lon": 163,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Calidris_pygmaea.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Coastal tundra breeding, intertidal mudflats",
+    "fun_fact": "Unique spatulate bill; migrates to Southeast Asia",
+    "occurrences": [
+      {
+        "country": "Bangladesh",
+        "lat": 22.35,
+        "lon": 89.1833
+      }
+    ]
+  },
+  {
+    "name": "Spotted Seal",
+    "country": "Russia",
+    "lat": 55,
+    "lon": 140,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoca_largha.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Ice-associated waters, coastal areas",
+    "fun_fact": "Western Pacific specialist, pups born on floating ice",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 40,
+        "lon": 120
+      },
+      {
+        "country": "Japan",
+        "lat": 43.0642,
+        "lon": 141.3469
+      }
+    ]
+  },
+  {
+    "name": "Sri Lankan Elephant",
+    "country": "Sri Lanka",
+    "lat": 7.8731,
+    "lon": 80.7718,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_maximus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Dry grasslands, scrub forests, wetlands",
+    "fun_fact": "Largest of Asian elephant subspecies, some individuals lack tusks entirely",
+    "occurrences": []
+  },
+  {
+    "name": "Sri Lankan Leopard",
+    "country": "Sri Lanka",
+    "lat": 7.8731,
+    "lon": 80.7718,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_pardus_kotiya.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Rainforests, dry forests, grasslands",
+    "fun_fact": "Largest predator in Sri Lanka, more robust build than other leopard subspecies",
+    "occurrences": []
+  },
+  {
+    "name": "Stellar's Sea Cow",
+    "country": "Russia",
+    "lat": 55.1833,
+    "lon": 166,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrodamalis_gigas.jpg",
+    "sound": "",
+    "iucn_status": "extinct",
+    "habitat": "Kelp forests in cold northern waters",
+    "fun_fact": "Extinct since 1768, was largest member of dugong family at 8-9 meters long",
+    "occurrences": []
+  },
+  {
+    "name": "Steller Sea Lion",
+    "country": "United States",
+    "lat": 57,
+    "lon": -135,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Eumetopias_jubatus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Rocky coasts, haulout sites",
+    "fun_fact": "Largest sea lion species, males can weigh up to 1100 kg",
+    "occurrences": [
+      {
+        "country": "Russia",
+        "lat": 55,
+        "lon": 160
+      },
+      {
+        "country": "Japan",
+        "lat": 43.0642,
+        "lon": 141.3469
+      }
+    ]
+  },
+  {
+    "name": "Subantarctic Fur Seal",
+    "country": "South Africa",
+    "lat": -46,
+    "lon": 37,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctocephalus_tropicalis.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Subantarctic islands",
+    "fun_fact": "Wide distribution across subantarctic islands, distinctive orange-yellow chest patch in males",
+    "occurrences": [
+      {
+        "country": "Australia",
+        "lat": -53,
+        "lon": 73
+      }
+    ]
+  },
+  {
+    "name": "Sulawesi Crested Macaque",
+    "country": "Indonesia",
+    "lat": 1.5,
+    "lon": 124.85,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca_nigra.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest",
+    "fun_fact": "Endemic to Sulawesi with striking crest and facial features",
+    "occurrences": []
+  },
+  {
+    "name": "Sumatran Elephant",
+    "country": "Indonesia",
+    "lat": -0.7893,
+    "lon": 100.65,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_sumatranus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Lowland forests, peat swamps",
+    "fun_fact": "Lighter skin color than other Asian elephants, with distinctive pink spots behind ears",
+    "occurrences": []
+  },
+  {
+    "name": "Sumatran Orangutan",
+    "country": "Indonesia",
+    "lat": 3.5952,
+    "lon": 98.6722,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pongo_abelii.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Primary and secondary rainforest",
+    "fun_fact": "More social than Bornean orangutans and primarily arboreal, spending most time in trees",
+    "occurrences": []
+  },
+  {
+    "name": "Sumatran Rhino",
+    "country": "Indonesia",
+    "lat": -0.7893,
+    "lon": 100.65,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dicerorhinus_sumatrensis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dense highland and lowland tropical forest",
+    "fun_fact": "Smallest rhino species and only Asian rhino with two horns, covered in reddish hair",
+    "occurrences": [
+      {
+        "country": "Malaysia",
+        "lat": 4.2105,
+        "lon": 101.9758
+      }
+    ]
+  },
+  {
+    "name": "Sumatran Tiger",
+    "country": "Indonesia",
+    "lat": -2.5,
+    "lon": 101.5,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_tigris_sumatrae.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest, swamp forests",
+    "fun_fact": "Smallest tiger subspecies with darkest coat and narrow stripes",
+    "occurrences": []
+  },
+  {
+    "name": "Sunda Tiger",
+    "country": "Indonesia",
+    "lat": -6.2088,
+    "lon": 106.8456,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_tigris_sondaica.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical rainforest, peat swamps, mangroves",
+    "fun_fact": "Smallest tiger subspecies with distinctive narrow black stripes and webbed toes for swimming",
+    "occurrences": []
+  },
+  {
+    "name": "Tana River Red Colobus",
+    "country": "Kenya",
+    "lat": -2.3,
+    "lon": 40.1,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_rufomitratus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Gallery forests along Tana River",
+    "fun_fact": "Fewer than 1000 individuals, threatened by habitat loss and hybridization",
+    "occurrences": []
+  },
+  {
+    "name": "Tasmanian Devil",
+    "country": "Australia",
+    "lat": -41.4545,
+    "lon": 145.9707,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarcophilus_harrisii.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Forests, scrublands, agricultural areas",
+    "fun_fact": "World's largest carnivorous marsupial with strongest bite force per body mass of any mammal",
+    "occurrences": []
+  },
+  {
+    "name": "Tiger",
+    "country": "India",
+    "lat": 23.533,
+    "lon": 91.1237,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panthera_tigris.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Forests, grasslands, mangroves, savannas",
+    "fun_fact": "Largest wild cat species, each has unique stripe pattern like human fingerprints",
+    "occurrences": [
+      {
+        "country": "China",
+        "lat": 35.8617,
+        "lon": 104.1954
+      },
+      {
+        "country": "Russia",
+        "lat": 61.524,
+        "lon": 105.3188
+      },
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      }
+    ]
+  },
+  {
+    "name": "Tonkin Snub-nosed Monkey",
+    "country": "Vietnam",
+    "lat": 22,
+    "lon": 105,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinopithecus_avunculus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Limestone forests",
+    "fun_fact": "Fewer than 250 individuals, thought extinct until rediscovered in 1990s",
+    "occurrences": []
+  },
+  {
+    "name": "Vaquita",
+    "country": "Mexico",
+    "lat": 31,
+    "lon": -114.5,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phocoena_sinus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Northern Gulf of California",
+    "fun_fact": "World's most endangered marine mammal with fewer than 30 individuals remaining",
+    "occurrences": []
+  },
+  {
+    "name": "Vaquita Porpoise",
+    "country": "Mexico",
+    "lat": 31,
+    "lon": -114.5,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phocoena_sinus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Upper Gulf of California",
+    "fun_fact": "World's most endangered marine mammal with fewer than 10 individuals remaining",
+    "occurrences": []
+  },
+  {
+    "name": "Walrus",
+    "country": "Russia",
+    "lat": 70,
+    "lon": 100,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Odobenus_rosmarus.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Arctic pack ice, coastal waters",
+    "fun_fact": "Uses tusks to haul out of water, can weigh up to 2000kg and dive 90 meters deep",
+    "occurrences": [
+      {
+        "country": "Canada",
+        "lat": 74.0059,
+        "lon": -105.0067
+      },
+      {
+        "country": "Alaska",
+        "lat": 64.0685,
+        "lon": -152.2782
+      }
+    ]
+  },
+  {
+    "name": "Waved Albatross",
+    "country": "Ecuador",
+    "lat": -1.4,
+    "lon": -89.6,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoebastria_irrorata.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Islands for breeding, open ocean for foraging",
+    "fun_fact": "Elaborate courtship dance, can fly for hours without flapping wings",
+    "occurrences": [
+      {
+        "country": "Peru",
+        "lat": -9.19,
+        "lon": -75.0152
+      }
+    ]
+  },
+  {
+    "name": "Weddell Seal",
+    "country": "Antarctica",
+    "lat": -77.84,
+    "lon": 166.68,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptonychotes_weddellii.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Antarctic ice shelves, fast ice",
+    "fun_fact": "Can dive deeper than 600m and hold breath for over 80 minutes",
+    "occurrences": []
+  },
+  {
+    "name": "West Indian Manatee",
+    "country": "United States",
+    "lat": 25.7617,
+    "lon": -80.1918,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichechus_manatus_latirostris.jpg",
+    "sound": "",
+    "iucn_status": "vulnerable",
+    "habitat": "Warm coastal waters, estuaries",
+    "fun_fact": "Closest living relatives are elephants, can hold breath for 20 minutes",
+    "occurrences": [
+      {
+        "country": "Cuba",
+        "lat": 21.5218,
+        "lon": -77.7812
+      },
+      {
+        "country": "Puerto Rico",
+        "lat": 18.2208,
+        "lon": -66.5901
+      }
+    ]
+  },
+  {
+    "name": "Western Chimpanzee",
+    "country": "Guinea",
+    "lat": 9.9456,
+    "lon": -9.6966,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pan_troglodytes_verus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Tropical forests, savannas",
+    "fun_fact": "Uses stone and wooden tools; distinct genetics from other chimp subspecies",
+    "occurrences": [
+      {
+        "country": "Sierra Leone",
+        "lat": 8.4606,
+        "lon": -11.7799
+      }
+    ]
+  },
+  {
+    "name": "Western Hoolock Gibbon",
+    "country": "India",
+    "lat": 25,
+    "lon": 93,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoolock_hoolock.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Primary and secondary rainforest",
+    "fun_fact": "Only ape species native to India, males black and females buff-colored",
+    "occurrences": [
+      {
+        "country": "Bangladesh",
+        "lat": 23.685,
+        "lon": 90.3563
+      },
+      {
+        "country": "Myanmar",
+        "lat": 21.9162,
+        "lon": 95.956
+      }
+    ]
+  },
+  {
+    "name": "Western Lowland Gorilla",
+    "country": "Central African Republic",
+    "lat": 6.6111,
+    "lon": 20.9394,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_gorilla_gorilla.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Dense rainforest, secondary forest, swamp forest",
+    "fun_fact": "Can stand up to 6 feet tall and beat their chests to communicate over long distances",
+    "occurrences": [
+      {
+        "country": "Cameroon",
+        "lat": 7.3697,
+        "lon": 12.3547
+      },
+      {
+        "country": "Equatorial Guinea",
+        "lat": 1.6508,
+        "lon": 10.2679
+      },
+      {
+        "country": "Gabon",
+        "lat": -0.8037,
+        "lon": 11.6094
+      }
+    ]
+  },
+  {
+    "name": "Whale Shark",
+    "country": "Philippines",
+    "lat": 12.8797,
+    "lon": 121.774,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhincodon_typus.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Warm oceanic and coastal waters",
+    "fun_fact": "Largest fish species, can grow up to 12 meters long but feeds only on plankton",
+    "occurrences": [
+      {
+        "country": "Mexico",
+        "lat": 23.6345,
+        "lon": -102.5528
+      },
+      {
+        "country": "Australia",
+        "lat": -25.2744,
+        "lon": 133.7751
+      },
+      {
+        "country": "Maldives",
+        "lat": 3.2028,
+        "lon": 73.2207
+      }
+    ]
+  },
+  {
+    "name": "White Rhinoceros",
+    "country": "South Africa",
+    "lat": -28,
+    "lon": 24,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ceratotherium_simum.jpg",
+    "sound": "",
+    "iucn_status": "near threatened",
+    "habitat": "Grasslands, savannas",
+    "fun_fact": "Second largest land mammal after elephant, name comes from 'wide' not color",
+    "occurrences": [
+      {
+        "country": "Kenya",
+        "lat": -0.0236,
+        "lon": 37.9062
+      },
+      {
+        "country": "Uganda",
+        "lat": 1.3733,
+        "lon": 32.2903
+      }
+    ]
+  },
+  {
+    "name": "White-bellied Heron",
+    "country": "Bhutan",
+    "lat": 27.5142,
+    "lon": 90.4336,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_insignis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Undisturbed river valleys",
+    "fun_fact": "One of the world's rarest herons with <250 individuals",
+    "occurrences": [
+      {
+        "country": "India",
+        "lat": 26.2006,
+        "lon": 92.9376
+      }
+    ]
+  },
+  {
+    "name": "White-headed Langur",
+    "country": "China",
+    "lat": 22.3,
+    "lon": 108,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trachypithecus_poliocephalus.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Limestone karst forests",
+    "fun_fact": "Fewer than 1000 individuals, babies born orange and turn black with white heads",
+    "occurrences": []
+  },
+  {
+    "name": "Wombat",
+    "country": "Australia",
+    "lat": -25.2744,
+    "lon": 133.7751,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vombatus_ursinus.jpg",
+    "sound": "",
+    "iucn_status": "least concern",
+    "habitat": "Forests, mountains, scrublands",
+    "fun_fact": "Produces cube-shaped droppings and has backwards-facing pouch to prevent dirt when digging",
+    "occurrences": []
+  },
+  {
+    "name": "Yangtze Finless Porpoise",
+    "country": "China",
+    "lat": 30.5928,
+    "lon": 114.3055,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Neophocaena_asiaeorientalis.jpg",
+    "sound": "",
+    "iucn_status": "critically endangered",
+    "habitat": "Yangtze River and associated lakes",
+    "fun_fact": "Only cetacean species in Yangtze River, with fewer than 1000 individuals remaining",
+    "occurrences": []
+  },
+  {
+    "name": "Yellow-eyed Penguin",
+    "country": "New Zealand",
+    "lat": -45.0312,
+    "lon": 170.2622,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Megadyptes_antipodes.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Temperate coastal forests, beaches",
+    "fun_fact": "One of the rarest penguins with pale yellow eyes and head band",
+    "occurrences": []
+  },
+  {
+    "name": "Zanzibar Red Colobus",
+    "country": "Tanzania",
+    "lat": -6.1659,
+    "lon": 39.2026,
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Procolobus_kirkii.jpg",
+    "sound": "",
+    "iucn_status": "endangered",
+    "habitat": "Coastal forests, mangroves",
+    "fun_fact": "Endemic to Zanzibar, population recovered from 1500 to over 5000 individuals",
+    "occurrences": []
+  }
+]
